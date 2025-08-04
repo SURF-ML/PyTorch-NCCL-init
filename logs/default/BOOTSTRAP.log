@@ -1,0 +1,3 @@
+gcn148:1627115:1627115 [0] NCCL INFO Bootstrap: Using eno2np0:172.18.62.148<0>
+gcn148:1627115:1627115 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn146:2016528:2016850 [1] NCCL INFO Bootstrap timings total 0.026890 (create 0.000041, send 0.000130, recv 0.000212, ring 0.025849, delay 0.000001)
