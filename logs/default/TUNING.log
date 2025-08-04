@@ -1,5 +1,30 @@
-gcn148:1680554:1680554 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
-gcn148:1680554:1680873 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
-gcn148:1680554:1680873 [0] NCCL INFO TUNER/Plugin: Failed to find ncclTunerPlugin_v4 symbol.
-gcn148:1680554:1680873 [0] NCCL INFO TUNER/Plugin: Failed to find ncclTunerPlugin_v3 symbol.
-gcn148:1680554:1680873 [0] NCCL INFO TUNER/Plugin: Failed to find ncclTunerPlugin_v2 symbol, using internal tuner instead.
+gcn146:2100756:2100756 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn146:2100756:2101067 [0] NCCL INFO   Algorithm   |                            Tree                  |                            Ring                  |                   CollNetDirect                  |
+gcn146:2100756:2101067 [0] NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+gcn146:2100756:2101067 [0] NCCL INFO  Max NThreads |            512 |            640 |            512 |            512 |            640 |            512 |              0 |              0 |            640 |
+gcn146:2100756:2101067 [0] NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    28.2/  22.5 |    46.0/  88.3 |   120.4/  96.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    28.2/  22.5 |    46.0/  88.3 |   120.4/  96.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    21.3/  25.7 |    30.0/ 100.9 |    58.4/ 109.7 |     2.4/   0.0 |     2.4/   0.0 |    40.8/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    21.3/  25.7 |    30.0/ 100.9 |    58.4/ 109.7 |     2.4/   0.0 |     2.4/   0.0 |    40.8/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO     AllReduce |    20.4/   9.6 |    38.5/  62.4 |    60.4/  70.4 |    36.0/  12.9 |    46.0/  50.5 |   108.4/  54.9 |     2.4/   0.0 |     2.4/   0.0 |    40.8/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO   Algorithm   |                    CollNetChain                  |                            NVLS                  |                        NVLSTree                  |
+gcn146:2100756:2101067 [0] NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+gcn146:2100756:2101067 [0] NCCL INFO  Max NThreads |              0 |              0 |            640 |              0 |              0 |            640 |              0 |              0 |            640 |
+gcn146:2100756:2101067 [0] NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    18.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    18.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO     AllReduce |     0.0/   0.0 |     0.0/   0.0 |    46.8/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    18.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    28.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO   Algorithm   |                             PAT                  |
+gcn146:2100756:2101067 [0] NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+gcn146:2100756:2101067 [0] NCCL INFO  Max NThreads |              0 |              0 |              0 |
+gcn146:2100756:2101067 [0] NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO     AllReduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gcn146:2100756:2101067 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gcn146:2100756:2101067 [0] NCCL INFO TUNER/Plugin: Failed to find ncclTunerPlugin_v4 symbol.
+gcn146:2100756:2101067 [0] NCCL INFO TUNER/Plugin: Failed to find ncclTunerPlugin_v3 symbol.
+gcn146:2100756:2101067 [0] NCCL INFO TUNER/Plugin: Failed to find ncclTunerPlugin_v2 symbol, using internal tuner instead.
+gcn146:2100756:2100756 [0] NCCL INFO AllReduce: 4 Bytes -> Algo TREE proto LL channel{Lo..Hi}={0..0}

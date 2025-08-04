@@ -1,89 +1,89 @@
-gcn148:1676058:1676058 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
-gcn148:1676058:1676404 [0] NCCL INFO Channel 00/0 : 4[0] -> 5[1] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x151409a00000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 02/0 : 4[0] -> 5[1] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x151409c00000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 04/0 : 4[0] -> 5[1] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x151409e00000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 06/0 : 4[0] -> 5[1] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140a000000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 02/0 : 4[0] -> 6[2] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140a200000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 03/0 : 4[0] -> 6[2] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140a400000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 06/0 : 4[0] -> 6[2] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140a600000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 07/0 : 4[0] -> 6[2] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140a800000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 01/0 : 4[0] -> 7[3] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140aa00000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 03/0 : 4[0] -> 7[3] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140ac00000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 05/0 : 4[0] -> 7[3] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140ae00000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO Channel 07/0 : 4[0] -> 7[3] via P2P/CUMEM
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140b000000 size 2097152 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140b200000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140bc00000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140c600000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140d000000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140da00000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140e400000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140ee00000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x15140f800000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x151410200000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x151410c00000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x151411600000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x151412000000 size 10485760 ipcDesc 0x1513b0008b60
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14b22c008bb0 to fd 100 on remote peer 5
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x151412a00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14b22c00a4b0 to fd 100 on remote peer 5
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x151413400000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14b22c00bbd0 to fd 101 on remote peer 5
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x151413e00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14b22c00d2f0 to fd 101 on remote peer 5
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x151414800000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x1516500174d0 to fd 102 on remote peer 6
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x151415200000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x151650018bf0 to fd 102 on remote peer 6
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x15141aa00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x15165001a310 to fd 102 on remote peer 6
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x15141b400000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x15165001ba30 to fd 104 on remote peer 6
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x15141c600000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14ffd4011850 to fd 101 on remote peer 7
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x15141d000000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14ffd4012f70 to fd 104 on remote peer 7
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x602000000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14ffd4014690 to fd 101 on remote peer 7
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x602a00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14ffd4015db0 to fd 106 on remote peer 7
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x603400000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14ffd4019390 to fd 108 on remote peer 7
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x603e00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14ffd401aab0 to fd 110 on remote peer 7
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x604000000 size 10485760 ipcDesc 0x1513b001b688
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x604a00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14ffd401c1d0 to fd 110 on remote peer 7
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x604c00000
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x604e00000 size 9633792 ipcDesc 0x1513b001a808
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14ffd401d8f0 to fd 106 on remote peer 7
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605800000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x15165001f010 to fd 106 on remote peer 6
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605a00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x151650020730 to fd 96 on remote peer 6
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605c00000
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x606000000 size 10485760 ipcDesc 0x1513b001bcc8
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x151650021e50 to fd 96 on remote peer 6
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x606c00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x151650023570 to fd 97 on remote peer 6
-gcn148:1676058:1676398 [0] NCCL INFO Allocated shareable buffer 0x606e00000 size 9633792 ipcDesc 0x1513b001af98
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x607800000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14b22c027ad0 to fd 97 on remote peer 5
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x607a00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14b22c0291f0 to fd 97 on remote peer 5
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x607c00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14b22c02a910 to fd 97 on remote peer 5
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x607e00000
-gcn148:1676058:1676404 [0] NCCL INFO UDS converted handle 0x14b22c02c030 to fd 97 on remote peer 5
-gcn148:1676058:1676404 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605e00000
+gcn146:2096385:2096385 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn146:2096385:2096721 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536d9a00000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536d9c00000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536d9e00000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536da000000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 02/0 : 0[0] -> 2[2] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536da200000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 03/0 : 0[0] -> 2[2] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536da400000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 06/0 : 0[0] -> 2[2] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536da600000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 07/0 : 0[0] -> 2[2] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536da800000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 01/0 : 0[0] -> 3[3] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536daa00000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 03/0 : 0[0] -> 3[3] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536dac00000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 05/0 : 0[0] -> 3[3] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536dae00000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO Channel 07/0 : 0[0] -> 3[3] via P2P/CUMEM
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536db000000 size 2097152 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536db200000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536dbc00000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536dc600000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536dd000000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536dda00000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536de400000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536dee00000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536df800000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536e0200000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536e0c00000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536e1600000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x1536e2000000 size 10485760 ipcDesc 0x153680008b60
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x150fa8008bb0 to fd 116 on remote peer 1
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536e2a00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x150fa800a4b0 to fd 117 on remote peer 1
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536e3400000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x150fa800bbd0 to fd 117 on remote peer 1
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536e3e00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x150fa800d2f0 to fd 117 on remote peer 1
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536e4800000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x154a5c0174d0 to fd 117 on remote peer 2
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536e5200000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x154a5c018bf0 to fd 118 on remote peer 2
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536eaa00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x154a5c01a310 to fd 118 on remote peer 2
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536eb400000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x154a5c01ba30 to fd 119 on remote peer 2
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536ec600000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x14e20c011850 to fd 119 on remote peer 3
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x1536ed000000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x14e20c012f70 to fd 119 on remote peer 3
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x602000000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x14e20c014690 to fd 122 on remote peer 3
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x602a00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x14e20c015db0 to fd 120 on remote peer 3
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 10485760 ptr 0x603400000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x14e20c019390 to fd 123 on remote peer 3
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x603e00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x14e20c01aab0 to fd 124 on remote peer 3
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x604000000 size 10485760 ipcDesc 0x15368001b688
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x604a00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x14e20c01c1d0 to fd 124 on remote peer 3
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x604c00000 size 9633792 ipcDesc 0x15368001a808
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605600000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x14e20c01d8f0 to fd 123 on remote peer 3
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605800000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x154a5c01f010 to fd 123 on remote peer 2
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x606000000 size 10485760 ipcDesc 0x15368001bcc8
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x606c00000
+gcn146:2096385:2096715 [0] NCCL INFO Allocated shareable buffer 0x606e00000 size 9633792 ipcDesc 0x15368001af98
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x154a5c020730 to fd 113 on remote peer 2
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x607800000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x154a5c021e50 to fd 113 on remote peer 2
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x607a00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x154a5c023570 to fd 113 on remote peer 2
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x607c00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x150fa8027ad0 to fd 113 on remote peer 1
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x607e00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x150fa80291f0 to fd 113 on remote peer 1
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605a00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x150fa802a910 to fd 113 on remote peer 1
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605c00000
+gcn146:2096385:2096721 [0] NCCL INFO UDS converted handle 0x150fa802c030 to fd 113 on remote peer 1
+gcn146:2096385:2096721 [0] NCCL INFO Imported shareable buffer device 0 size 2097152 ptr 0x605e00000

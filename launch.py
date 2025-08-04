@@ -4,8 +4,6 @@ import torch.distributed as dist
 
 
 def main():
-    # Set NCCL debug info
-    os.environ['NCCL_DEBUG'] = 'INFO'
     
     # Initialize distributed process group
     dist.init_process_group(backend='nccl')
