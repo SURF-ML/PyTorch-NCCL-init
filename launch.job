@@ -11,7 +11,7 @@
 
 DEBUG_FLAG=${1}
 OUTPUT_DIR=${2:-"default"}
-FLAGS=("ALL", "INIT" "COLL" "P2P" "SHM" "NET" "GRAPH" "TUNING" "ENV" "ALLOC" "CALL" "PROXY" "NVLS" "BOOTSTRAP" "REG" "PROFILE" "RAS")
+FLAGS=("ALL" "INIT" "COLL" "P2P" "SHM" "NET" "GRAPH" "TUNING" "ENV" "ALLOC" "CALL" "PROXY" "NVLS" "BOOTSTRAP" "REG" "PROFILE" "RAS")
 
 mkdir -p logs/${OUTPUT_DIR}
 
@@ -31,7 +31,7 @@ run_flag() {
          --error=logs/${OUTPUT_DIR}/slurm/${flag}-%j.err \
          apptainer exec \
          --env NCCL_DEBUG_SUBSYS=$flag \
-         --env NCCL_DEBUG_FILE=logs/${OUTPUT_DIR}/${flag}.log \
+         --env NCCL_DEBUG_FILE=logs/${OUTPUT_DIR}/${flag}-%h-%p.log \
          --env MASTER_PORT=$MASTER_PORT \
          --env MASTER_ADDR=$MASTER_ADDR \
          --env WORLD_SIZE=$WORLD_SIZE \
@@ -50,3 +50,16 @@ else
         run_flag "$flag"
     done
 fi
+
+# Remove everything except 1 rank 0 file
+for file in logs/default/*.log; do
+  if [[ -f "$file" ]]; then
+    if ! head -n 1 "$file" | grep -q '\[0\]'; then
+      rm -f "$file"
+    else
+      base=$(basename "$file")
+      pattern=${base%-*-*}
+      mv "$file" "logs/${OUTPUT_DIR}/${pattern}.log"
+    fi
+  fi
+done

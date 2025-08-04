@@ -1,22 +1,17 @@
-gcn148:1630580:1630580 [2] NCCL INFO NCCL version 2.27.3+cuda12.9
-gcn148:1630587:1630895 [0] NCCL INFO RAS network listening socket at 172.18.62.148<39691>
-gcn148:1630587:1630895 [0] NCCL INFO RAS client listening socket at ::1<28028>
-gcn148:1630587:1630929 [0] NCCL INFO RAS thread started
-gcn146:2020167:2020610 [0] NCCL INFO RAS handling local addRanks request (old nRasPeers 0)
-gcn146:2020167:2020610 [0] NCCL INFO RAS finished local processing of addRanks request (new nRasPeers 8, nRankPeers 8)
-gcn146:2020174:2020608 [0] NCCL INFO RAS link 1: opening new primary connection with 172.18.62.146<59617>
-gcn146:2020167:2020610 [0] NCCL INFO RAS link -1: calculated deferred primary connection with 172.18.62gcn146:20201gcn146:2020160:2020609 [0] NCCL INFO RAS handling connInitAck from 172.18.62.146<59033> (nack 0)
-gcn146:2020160:2020609 [0] NCCL INFO RAS established connection with 172.18.62.146<59gcn146:2020184:2020611 [0] NCCL INFO RAS peer 4: socket 172.18.gcn146:2020160:2020609 [0] NCCL INFO RAS new igcn148:1630567:1630928 [0] NCCL INFO RAS new incoming socket connection from 172.18.62.146<59274>
-gcn148:1630567:1630928 [0] NCCL INFO RAS handling connInit from 172.18.62.146<59274> (version 22703, listeningAddr 172.18.62.146<49315>, pegcn146:2020160:2020609 [0] NCCL INFO RAS current socket connection with 172.18.62.146<49315> closed by peer on receive; terminating it
-gcn146:2020160:2020609 [0] NCCL INFO RAS current socket connection with 172.18.62.146<59033> closed by peer on receive; terminating it
-gcn146:2020160:2020609 [0] NCCL INFO RAS handling local termination request
-gcn146:2020160:2020609 [0] NCCL INFO RAS terminating a connection with 172.18.62.146<59033>
-gcn146:2020160:2020609 [0] NCCL INFO RAS terminating a connection with 172.18.62.146<49315>
-gcn146:2020160:2020609 [0] NCCL INFO RAS thread terminating
-1 [0] NCCL INFO RAS handling connInitAck from 172.18.62.148<57149> (nack 0)
-gcn146:2020184:2020611 [0] NCCL INFO RAS established connection with 172.18.62.148<57149> (sendQ empty, experiencingDelays 0, startRetryTime 0.00s)
-gcn146:2020184:2020611 [0] NCCL INFO RAS current socket connection with 172.18.62.148<57149> closed by peer on receive; terminating it
-gcn146:2020184:2020611 [0] NCCL INFO RAS handling local termination request
-gcn146:2020184:2020611 [0] NCCL INFO RAS terminating a connection with 172.18.62.146<55083>
-gcn146:2020184:2020611 [0] NCCL INFO RAS terminating a connection with 172.18.62.148<57149>
-gcn146:2020184:2020611 [0] NCCL INFO RAS thread terminating
+gcn148:1690975:1690975 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn148:1690975:1691332 [0] NCCL INFO RAS network listening socket at 172.18.62.148<58641>
+gcn148:1690975:1691332 [0] NCCL INFO RAS client listening socket at ::1<28028>
+gcn148:1690975:1691356 [0] NCCL INFO RAS thread started
+gcn148:1690975:1691356 [0] NCCL INFO RAS handling local addRanks request (old nRasPeers 0)
+gcn148:1690975:1691356 [0] NCCL INFO RAS finished local processing of addRanks request (new nRasPeers 8, nRankPeers 8)
+gcn148:1690975:1691356 [0] NCCL INFO RAS link 1: calculated deferred primary connection with 172.18.62.146<35963>
+gcn148:1690975:1691356 [0] NCCL INFO RAS link -1: calculated deferred primary connection with 172.18.62.148<54299>
+gcn148:1690975:1691356 [0] NCCL INFO RAS new incoming socket connection from 172.18.62.148<57790>
+gcn148:1690975:1691356 [0] NCCL INFO RAS handling connInit from 172.18.62.148<57790> (version 22703, listeningAddr 172.18.62.148<54299>, peersHash 0xda3d9bc9b83e8db6, deadPeersHash 0x0)
+gcn148:1690975:1691356 [0] NCCL INFO RAS new incoming socket connection from 172.18.62.146<37786>
+gcn148:1690975:1691356 [0] NCCL INFO RAS handling connInit from 172.18.62.146<37786> (version 22703, listeningAddr 172.18.62.146<35963>, peersHash 0xda3d9bc9b83e8db6, deadPeersHash 0x0)
+gcn148:1690975:1691356 [0] NCCL INFO RAS current socket connection with 172.18.62.146<35963> closed by peer on receive; terminating it
+gcn148:1690975:1691356 [0] NCCL INFO RAS handling local termination request
+gcn148:1690975:1691356 [0] NCCL INFO RAS terminating a connection with 172.18.62.148<54299>
+gcn148:1690975:1691356 [0] NCCL INFO RAS terminating a connection with 172.18.62.146<35963>
+gcn148:1690975:1691356 [0] NCCL INFO RAS thread terminating

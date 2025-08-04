@@ -1,178 +1,172 @@
-gcn148:1617868:1617868 [1] NCCL INFO NCCL_SOCKET_IFNAME set to eno
-gcn148:1617861:1617861 [2] NCCL INFO NCCL version 2.27.3+cuda12.9
-gcn148:1617861:1618191 [2] NCCL INFO NET/Plugin: Plugin name set by env to libnccl-net.so
-gcn148:1617861:1618191 [2] NCCL INFO NET/Plugin: Loaded net plugin NCCL RDMA Plugin v10 (v10)
-gcn148:1617861:1618191 [2] NCCL INFO NET/Plugin: Loaded collnet plugin NCCL RDMA Plugin v10 (v10)
-gcn148:1617861:1618191 [2] NCCL INFO Successfully loaded external plugin libnccl-net.so
-gcn148:1617861:1618191 [2] NCCL INFO Plugin Path : /opt/hpcx/nccl_rdma_sharp_plugin/lib/libnccl-net.so
-gcn148:1617861:1618191 [2] NCCL INFO P2P plugin v10 IBext_v10
-gcn148:1617861:1618191 [2] NCCL INFO NCCL_SOCKET_IFNAME set to eno
-gcn148:1617884:1618188 [0] NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
-gcn148:1617868:1618190 [1] NCCL INFO NET/IB : Made virtual device [1] name=mlx5_2 speed=200000 ndevs=1
-gcn148:1617868:1618190 [1] NCCL INFO NET/IB : Made virtual device [2] name=mlx5_3 speed=200000 ndevs=1
-gcn148:1617868:1618190 [1] NCCL INFO NET/IB : Made virtual device [3] name=mlx5_4 speed=200000 ndevs=1
-gcn148:1617868:1618190 [1] NCCL INFO NET/IB : Made virtual device [4] name=mlx5_5 speed=200000 ndevs=1
-gcn148:1617868:1618190 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/IB/SHARP [2]mlx5_3:1/IB/SHARP [3]mlx5_4:1/IB/SHARP [4]mlx5_5:1/IB/SHARP [RO]; OOB eno2np0:172.18.62.148<0>
-gcn148:1617868:1618190 [1] NCCL INFO Initialized NET plugin IBext_v10
-gcn148:1617868:1618190 [1] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 0 'mlx5_0
-gcn148:1617868:1618190 [1] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 0 'mlx5_0
-gcn148:1617868:1618190 [1] NCCL INFO Assigned NET plugin IBext_v10 to comm
-gcn146:2006843:2007160 [1] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 0 'mlx5_0
-gcn146:2006843:2007160 [1] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 0 'mlx5_0
-gcn146:2006843:2007160 [1] NCCL INFO NET/SHARP : GPU Direct RDMA Enabled for HCA 0 'mlx5_0'
-gcn146:2006843:2007160 [1] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 1 'mlx5_2
-gcn146:2006843:2007160 [1] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 1 'mlx5_2
-gcn146:2006821:2007162 [3] NCCL INFO NET/SHARP : GPU Direct RDMA Enabled for HCA 1 'mlx5_2'
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
-gcn146:2006828:2007161 [2] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
-gcn146:2006828:2007161 [2] NCCL INFO NET/SHARP : GPU Direct RDMA Enabled for HCA 2 'mlx5_3'
-gcn146:2006828:2007161 [2] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn146:2006828:2007161 [2] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn146:2006828:2007161 [2] NCCL INFO NET/SHARP : GPU Direct RDMA Enabled for HCA 3 'mlx5_4'
-gcn146:2006828:2007161 [2] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 0 'mlx5_0
-gcn146:2006828:2007161 [2] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 0 'mlx5_0
-gcn146:2006828:2007161 [2] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 0 'mlx5_0'
-gcn146:2006828:2007161 [2] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 1 'mlx5_2
-gcn146:2006828:2007161 [2] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 1 'mlx5_2
-gcn146:2006828:2007161 [2] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 1 'mlx5_2'
-gcn146:2006828:2007161 [2] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
-gcn146:2006821:2007162 [3] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 2 'mlx5_3'
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn146:2006821:2007162 [3] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 3 'mlx5_4'
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 4 'mlx5_5
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 4 'mlx5_5
-gcn146:2006821:2007162 [3] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 4 'mlx5_5'
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 0 'mlx5_0
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 0 'mlx5_0
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 1 'mlx5_2
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 1 'mlx5_2
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 4 'mlx5_5
-gcn146:2006821:2007162 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 4 'mlx5_5
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 0 / HCA 2 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1 / HCA 2 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 2 / HCA 2 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 3 / HCA 2 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 0 / HCA 1 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1 / HCA 1 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 2 / HCA 1 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 3 / HCA 1 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 0 / HCA 4 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1 / HCA 4 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 2 / HCA 4 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 3 / HCA 4 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 0 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 2 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 3 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 0 / HCA 2 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1 / HCA 2 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 2 / HCA 2 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 3 / HCA 2 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 0 / HCA 1 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1 / HCA 1 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 2 / HCA 1 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 3 / HCA 1 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 0 / HCA 4 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1 / HCA 4 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 2 / HCA 4 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 3 / HCA 4 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 0 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 1 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 2 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn146:2006843:2007160 [1] NCCL INFO GPU Direct RDMA Enabled for GPU 3 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 0 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310004f40
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 1 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310004fb8
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 2 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005030
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 3 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1533100050a8
-gcn148:1617884:1618222 [0] NCCL INFO New proxy send connection 4 from local rank 0, transport 0
-gcn148:1617884:1618230 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x152178005120
-gcn148:1617884:1618222 [0] NCCL INFO New proxy send connection 5 from local rank 0, transport 0
-gcn148:1617884:1618230 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x152178005198
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 6 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005210
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 7 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005288
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 8 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005300
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 9 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005378
-gcn148:1617875:1618228 [3] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn148:1617875:1618228 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618228 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 10 from local rank 3, transport 2
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1533100053f0
-gcn148:1617875:1618219 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618219 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618228 [3] NCCL INFO Channel 03/0 : 3[3] -> 7[3] [receive] via NET/IBext_v10/3/GDRDMA
-gcn148:1617875:1618228 [3] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 3 (distance 5 <= 5), read 0 mode Default
-gcn148:1617875:1618228 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618228 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618219 [3] NCCL INFO New proxy recv connection 11 from local rank 3, transport 2
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005468
-gcn148:1617875:1618219 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618219 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618228 [3] NCCL INFO Channel 07/0 : 3[3] -> 7[3] [receive] via NET/IBext_v10/3/GDRDMA
-gcn148:1617875:1618228 [3] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 3 (distance 5 <= 5), read 1 mode Default
-gcn148:1617875:1618219 [3] NCCL INFO New proxy send connection 12 from local rank 3, transport 2
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1533100054e0
-gcn148:1617875:1618219 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618219 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618228 [3] NCCL INFO Channel 03/0 : 7[3] -> 3[3] [send] via NET/IBext_v10/3/GDRDMA
-gcn148:1617875:1618228 [3] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 3 (distance 5 <= 5), read 1 mode Default
-gcn148:1617875:1618219 [3] NCCL INFO New proxy send connection 13 from local rank 3, transport 2
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005558
-gcn148:1617875:1618219 [3] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618219 [3] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
-gcn148:1617875:1618228 [3] NCCL INFO Channel 07/0 : 7[3] -> 3[3] [send] via NET/IBext_v10/3/GDRDMA
-gcn148:1617875:1618219 [3] NCCL INFO New proxy send connection 14 from local rank 3, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1533100055d0
-gcn148:1617875:1618219 [3] NCCL INFO New proxy send connection 15 from local rank 3, transport 0
-gcn146:2006821:2007198 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x150d00005648
-gcn146:2006821:2007189 [3] NCCL INFO New proxy send connection 16 from local rank 3, transport 0
-gcn146:2006821:2007198 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x150d000056c0
-gcn146:2006821:2007189 [3] NCCL INFO New proxy send connection 17 from local rank 3, transport 0
-gcn146:2006821:2007198 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x150d00005738
-gcn148:1617868:1618223 [1] NCCL INFO New proxy recv connection 18 from local rank 1, transport 0
-gcn148:1617868:1618229 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x14b6380057b0
-gcn148:1617868:1618223 [1] NCCL INFO New proxy recv connection 19 from local rank 1, transport 0
-gcn148:1617868:1618229 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x14b638005828
-gcn148:1617868:1618223 [1] NCCL INFO New proxy recv connection 20 from local rank 1, transport 0
-gcn146:2006843:2007199 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x14fb6c0058a0
-gcn146:2006843:2007191 [1] NCCL INFO New proxy recv connection 21 from local rank 1, transport 0
-gcn148:1617868:1618229 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x14b638005918
-gcn148:1617868:1618223 [1] NCCL INFO New proxy recv connection 22 from local rank 1, transport 0
-gcn148:1617868:1618229 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x14b638005990
-gcn148:1617868:1618223 [1] NCCL INFO New proxy recv connection 23 from local rank 1, transport 0
-gcn148:1617868:1618229 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x14b638005a08
-gcn146:2006821:2007198 [3] NCCL INFO Connected to proxy localRank 2 -> connection 0x14fe24005e40
-gcn146:2006821:2007189 [3] NCCL INFO New proxy send connection 24 from local rank 2, transport 0
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 1 -> connection 0x14b638005d50
-gcn148:1617875:1618228 [3] NCCL INFO Connected to proxy localRank 0 -> connection 0x152178005cd8
-gcn148:1617875:1618219 [3] NCCL INFO New proxy send connection 25 from local rank 0, transport 0
-gcn148:1617875:1618219 [3] NCCL INFO New proxy send connection 26 from local rank 1, transport 0
-gcn146:2006821:2007189 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 3 Port 1 qpn 992 mtu 5 LID 2442 subnet-prefix 33022  FLID 0 fifoRkey=0x177e3c fifoLkey=0x177e3c
-ggcn148:1617875:1618219 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 3 Port 1 qpn 1255 mtu 5 LID 2417 subnet-prefix 33022  FLID 0 fifoRkey=0x1fdd9b fifoLkey=0x1fdd9b
-NCCL INFO New proxy send connection 28 from local rank 1, transport 0
-gcn148:1617884:1618230 [0] NCCL INFO Connected to proxy localRank 2 -> connection 0x14d3f0005f30
-gcn148:1617884:1618222 [0] NCCL INFO New proxy send connection 29 from local rank 3, transport 0
-gcn148:1617884:1618230 [0] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005af8
-gcn148:1617868:1618229 [1] NCCL INFO Connected to proxy localRank 3 -> connection 0x153310005b70
-gcn146:2006835:2007195 [0] NCCL INFO NET/IB: NCCL Dev 2 IbDev 2 Port 1 qpn 1062 mtu 5 LID 2240 subnet-prefix 33022  FLID 0 fifoRkey=0x1fd492 fifoLkey=0x1fd492
-gcn146:2006843:2007191 [1] NCCL INFO NET/IB: NCCL Dev 1 IbDev 1 Port 1 qpn 1065 mtu 5 LID 2303 subnet-prefix 33022  FLID 0 fifoRkey=0x176e2c fifoLkey=0x176e2c
-NCCL INFO New proxy send connection 33 from local rank 1, transport 0
-gcn146:2006828:2007197 [2] NCCL INFO Connected to proxy localRank 3 -> connection 0x150d00005a80
-gcn146:2006828:2007197 [2] NCCL INFO Connected to proxy localRank 1 -> connection 0x14fb6c005cd8
-gcn148:1617861:1618221 [2] NCCL INFO New proxy send connection 34 from local rank 0, transport 0
-gcn146:2006828:2007197 [2] NCCL INFO Connected to proxy localRank 0 -> connection 0x14ec24005d50
-gcn148:1617861:1618221 [2] NCCL INFO NET/IB: NCCL Dev 4 IbDev 4 Port 1 qpn 1258 mtu 5 LID 2366 subnet-prefix 33022  FLID 0 fifoRkey=0x17d291 fifoLkey=0x17d291
-gcn146:2006828:2007192 [2] NCCL INFO NET/IB: NCCL Dev 4 IbDev 4 Port 1 qpn 1039 mtu 5 LID 2367 subnet-prefix 33022  FLID 0 fifoRkey=0x175617 fifoLkey=0x175617
+gcn148:1678297:1678297 [0] NCCL INFO NCCL_SOCKET_IFNAME set to eno
+gcn148:1678297:1678297 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn148:1678297:1678615 [0] NCCL INFO NET/Plugin: Plugin name set by env to libnccl-net.so
+gcn148:1678297:1678615 [0] NCCL INFO NET/Plugin: Loaded net plugin NCCL RDMA Plugin v10 (v10)
+gcn148:1678297:1678615 [0] NCCL INFO NET/Plugin: Loaded collnet plugin NCCL RDMA Plugin v10 (v10)
+gcn148:1678297:1678615 [0] NCCL INFO Successfully loaded external plugin libnccl-net.so
+gcn148:1678297:1678615 [0] NCCL INFO Plugin Path : /opt/hpcx/nccl_rdma_sharp_plugin/lib/libnccl-net.so
+gcn148:1678297:1678615 [0] NCCL INFO P2P plugin v10 IBext_v10
+gcn148:1678297:1678615 [0] NCCL INFO NCCL_SOCKET_IFNAME set to eno
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : Made virtual device [1] name=mlx5_2 speed=200000 ndevs=1
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : Made virtual device [2] name=mlx5_3 speed=200000 ndevs=1
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : Made virtual device [3] name=mlx5_4 speed=200000 ndevs=1
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : Made virtual device [4] name=mlx5_5 speed=200000 ndevs=1
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/IB/SHARP [2]mlx5_3:1/IB/SHARP [3]mlx5_4:1/IB/SHARP [4]mlx5_5:1/IB/SHARP [RO]; OOB eno2np0:172.18.62.148<0>
+gcn148:1678297:1678615 [0] NCCL INFO Initialized NET plugin IBext_v10
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 0 'mlx5_0
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 0 'mlx5_0
+gcn148:1678297:1678615 [0] NCCL INFO Assigned NET plugin IBext_v10 to comm
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 0 'mlx5_0
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 0 'mlx5_0
+gcn148:1678297:1678615 [0] NCCL INFO NET/SHARP : GPU Direct RDMA Enabled for HCA 0 'mlx5_0'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 1 'mlx5_2
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 1 'mlx5_2
+gcn148:1678297:1678615 [0] NCCL INFO NET/SHARP : GPU Direct RDMA Enabled for HCA 1 'mlx5_2'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678615 [0] NCCL INFO NET/SHARP : GPU Direct RDMA Enabled for HCA 2 'mlx5_3'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
+gcn148:1678297:1678615 [0] NCCL INFO NET/SHARP : GPU Direct RDMA Enabled for HCA 3 'mlx5_4'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 0 'mlx5_0
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 0 'mlx5_0
+gcn148:1678297:1678615 [0] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 0 'mlx5_0'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 1 'mlx5_2
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 1 'mlx5_2
+gcn148:1678297:1678615 [0] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 1 'mlx5_2'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678615 [0] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 2 'mlx5_3'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
+gcn148:1678297:1678615 [0] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 3 'mlx5_4'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 4 'mlx5_5
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 4 'mlx5_5
+gcn148:1678297:1678615 [0] NCCL INFO NET/IBext_v10 : GPU Direct RDMA Enabled for HCA 4 'mlx5_5'
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 0 'mlx5_0
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 0 'mlx5_0
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 1 'mlx5_2
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 1 'mlx5_2
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 3 'mlx5_4
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 3 'mlx5_4
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 4 'mlx5_5
+gcn148:1678297:1678615 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 4 'mlx5_5
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 5 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 6 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 1 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 5 / HCA 1 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 6 / HCA 1 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 1 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 4 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 5 / HCA 4 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 6 / HCA 4 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 4 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 3 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 5 / HCA 3 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 6 / HCA 3 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 3 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 5 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 6 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 1 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 5 / HCA 1 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 6 / HCA 1 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 1 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 4 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 5 / HCA 4 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 6 / HCA 4 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 4 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 3 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 5 / HCA 3 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 6 / HCA 3 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678615 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 7 / HCA 3 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 0 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338004f40
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 1 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338004fb8
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 2 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005030
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 3 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1533380050a8
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 4 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005120
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 5 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005198
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 6 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005210
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 7 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005288
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 8 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005300
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 9 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005378
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 10 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1533380053f0
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 11 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005468
+gcn148:1678297:1678653 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678653 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678653 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 12 from local rank 0, transport 2
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1533380054e0
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678653 [0] NCCL INFO Channel 00/0 : 0[0] -> 4[0] [receive] via NET/IBext_v10/2/GDRDMA
+gcn148:1678297:1678653 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 2 (distance 5 <= 5), read 0 mode Default
+gcn148:1678297:1678653 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678653 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 13 from local rank 0, transport 2
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005558
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678653 [0] NCCL INFO Channel 04/0 : 0[0] -> 4[0] [receive] via NET/IBext_v10/2/GDRDMA
+gcn148:1678297:1678653 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 2 (distance 5 <= 5), read 1 mode Default
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 14 from local rank 0, transport 2
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1533380055d0
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678653 [0] NCCL INFO Channel 00/0 : 4[0] -> 0[0] [send] via NET/IBext_v10/2/GDRDMA
+gcn148:1678297:1678653 [0] NCCL INFO GPU Direct RDMA Enabled for GPU 4 / HCA 2 (distance 5 <= 5), read 1 mode Default
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 15 from local rank 0, transport 2
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005648
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB : GPU Direct RDMA (nvidia-peermem) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB : GPU Direct RDMA (DMABUF) enabled for HCA 2 'mlx5_3
+gcn148:1678297:1678653 [0] NCCL INFO Channel 04/0 : 4[0] -> 0[0] [send] via NET/IBext_v10/2/GDRDMA
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 16 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1533380056c0
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 17 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005738
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 18 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1533380057b0
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 19 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005828
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 20 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1533380058a0
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 21 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005918
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 22 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005990
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 23 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005a08
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 24 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005a80
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 25 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005af8
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 26 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005b70
+gcn148:1678297:1678645 [0] NCCL INFO New proxy recv connection 27 from local rank 0, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x153338005be8
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x1543c0005c60
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 28 from local rank 1, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 2 -> connection 0x14b41c005f30
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 29 from local rank 3, transport 0
+gcn148:1678297:1678653 [0] NCCL INFO Connected to proxy localRank 3 -> connection 0x14a614005af8
+gcn148:1678297:1678645 [0] NCCL INFO New proxy send connection 30 from local rank 2, transport 0
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB: NCCL Dev 2 IbDev 2 Port 1 qpn 1481 mtu 5 LID 2239 subnet-prefix 33022  FLID 0 fifoRkey=0x17bc7b fifoLkey=0x17bc7b
+gcn148:1678297:1678645 [0] NCCL INFO NET/IB: NCCL Dev 2 IbDev 2 Port 1 qpn 1484 mtu 5 LID 2239 subnet-prefix 33022  FLID 0 fifoRkey=0x176a28 fifoLkey=0x176a28

@@ -1,504 +1,450 @@
-gcn148:1624731:1624731 [2] NCCL INFO NCCL version 2.27.3+cuda12.9
-gcn146:2014113:2014447 [3] NCCL INFO UDS: Creating service thread comm 0x9fc4ae0 rank 3
-gcn146:2014120:2014478 [0] NCCL INFO New proxy send connection 0 from local rank 0, transport 0
-gcn146:2014120:2014478 [0] NCCL INFO proxyProgressAsync opId=0x147bd7a49490 op.type=1 op.reqBuff=0x147bbc004ee0 op.respSize=16 done
-gcn146:2014120:2014488 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x147bd7a49490
-gcn146:2014120:2014488 [0] NCCL INFO resp.opId=0x147bd7a49490 matches expected opId=0x147bd7a49490
-gcn148:1624752:1625097 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x152124004f40
-gcn148:1624752:1625091 [0] NCCL INFO Received and initiated operation=Init res=0
-gcn148:1624752:1625091 [0] NCCL INFO proxyProgressAsync opId=0x152147a492c0 op.type=3 op.reqBuff=0x152124004f00 op.respSize=88 done
-gcn146:2014128:2014487 [2] NCCL INFO ncclPollProxyResponse Received new opId=0x14f22fa49490
-gcn146:2014128:2014487 [2] NCCL INFO resp.opId=0x14f22fa49490 matches expected opId=0x14f22fa49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Setup res=0
-gcn148:1624738:1625089 [1] NCCL INFO New proxy recv connection 1 from local rank 1, transport 0
-gcn148:1624738:1625089 [1] NCCL INFO proxyProgressAsync opId=0x14f753a49490 op.type=1 op.reqBuff=0x14f744004f00 op.respSize=16 done
-gcn148:1624738:1625095 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x14f753a49490
-gcn148:1624738:1625089 [1] NCCL INFO Received and initiated operation=Init res=0
-gcn148:1624738:1625095 [1] NCCL INFO resp.opId=0x14f753a49490 matches expected opId=0x14f753a49490
-gcn148:1624738:1625095 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x14f744004fb8
-gcn148:1624738:1625089 [1] NCCL INFO proxyProgressAsync opId=0x14f753a49490 op.type=3 op.reqBuff=0x14f744004ee0 op.respSize=88 done
-gcn148:1624738:1625095 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x14f753a49490
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn148:1624744:1625092 [3] NCCL INFO New proxy recv connection 2 from local rank 3, transport 0
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfa49490 op.type=1 op.reqBuff=0x1514ac004ee0 op.respSize=16 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624744:1625096 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1514ac005030
-gcn148:1624731:1625087 [2] NCCL INFO proxyProgressAsync opId=0x14786ba49490 op.type=3 op.reqBuff=0x147848004f00 op.respSize=88 done
-gcn148:1624752:1625097 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x152147a492c0
-gcn148:1624752:1625097 [0] NCCL INFO resp.opId=0x152147a492c0 matches expected opId=0x152147a492c0
-gcn148:1624752:1625091 [0] NCCL INFO Received and initiated operation=Setup res=0
-gcn148:1624752:1625091 [0] NCCL INFO New proxy send connection 3 from local rank 0, transport 0
-gcn148:1624752:1625091 [0] NCCL INFO proxyProgressAsync opId=0x152147a492c0 op.type=1 op.reqBuff=0x152124004f00 op.respSize=16 done
-gcn148:1624752:1625097 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x152147a492c0
-gcn148:1624752:1625091 [0] NCCL INFO Received and initiated operation=Init res=0
-gcn148:1624752:1625097 [0] NCCL INFO resp.opId=0x152147a492c0 matches expected opId=0x152147a492c0
-gcn148:1624752:1gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f4004ee0 op.respSize=88 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy recv connection 4 from local rank 3, transport 0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004ee0 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f4005120
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f4004f00 op.respSize=88 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy recv connection 5 from local rank 3, transport 0
-gcn146:2014120:2014478 [0] NCCL INFO proxyProgressAsync opId=0x147bd7a49490 op.type=1 op.reqBuff=0x147bbc004f00 op.respSize=16 done
-gcn146:2014120:2014488 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x147bd7a49490
-gcn146:2014120:2014478 [0] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014120:2014488 [0] NCCL INFO resp.opId=0x147bd7a49490 matches expected opId=0x147bd7a49490
-gcn146:2014120:2014488 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x147bbc005198
-gcn146:2014120:2014478 [0] NCCL INFO proxyProgressAsync opId=0x147bd7a49490 op.type=3 op.reqBuff=0x147bbc004ee0 op.respSize=88 done
-gcn146:2014120:2014488 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x147bd7a49490
-gcn146:2014120:2014478 [0] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014120:2014488 [0] NCCL INFO resp.opId=0x147bd7a49490 matches expected opId=0x147bd7a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy recv connection 6 from local rank 3, transport 0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004ee0 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f4005210
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f4004f00 op.respSize=88 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy recv connection 7 from local rank 3, transport 0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004f00 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f4005288
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f4004ee0 op.respSize=88 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014480 [3] NCCL INFO New proxy recv connection 8 from local rank 3, transport 0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004ee0 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f4005300
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f4004f00 op.respSize=88 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014480 [3] NCCL INFO New proxy recv connection 9 from local rank 3, transport 0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004f00 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f4005378
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f4004ee0 op.respSize=88 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy recv connection 10 from local rank 3, transport 2
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004ee0 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f40053f0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f40177d0 op.respSize=128 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy recv connection 11 from local rank 3, transport 2
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004f00 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f4005468
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f40177d0 op.respSize=128 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014480 [3] NCCL INFO New proxy send connection 12 from local rank 3, transport 2
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004ee0 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f40054e0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f40177d0 op.respSize=0 done
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy send connection 13 from local rank 3, transport 2
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=1 op.reqBuff=0x1465f4004f00 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1465f4005558
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f40177d0 op.respSize=0 done
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy send connection 14 from local rank 3, transport 0
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfa49490 op.type=1 op.reqBuff=0x1514ac004ee0 op.respSize=16 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624744:1gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603a49490 op.type=3 op.reqBuff=0x1465f4004f00 op.respSize=88 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO New proxy send connection 15 from local rank 3, transport 0
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfa49490 op.type=1 op.reqBuff=0x1514ac004f00 op.respSize=16 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624744:1625096 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1514ac005648
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfa49490 op.type=3 op.reqBuff=0x1514ac004ee0 op.respSize=88 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO New proxy send connection 16 from local rank 3, transport 0
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfa49490 op.type=1 op.reqBuff=0x1514ac004ee0 op.respSize=16 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn148:1624744:1625096 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1514ac0056c0
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfa49490 op.type=3 op.reqBuff=0x1514ac004f00 op.respSize=88 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn148:1624744:1625092 [3] NCCL INFO New proxy send connection 17 from local rank 3, transport 0
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfa49490 op.type=1 op.reqBuff=0x1514ac004f00 op.respSize=16 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624744:1625096 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x1514ac005738
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfa49490 op.type=3 op.reqBuff=0x1514ac004ee0 op.respSize=88 done
-gcn148:1624744:1625096 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x1514cfa49490
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Setup res=0
-gcn148:1624744:1625096 [3] NCCL INFO resp.opId=0x1514cfa49490 matches expected opId=0x1514cfa49490
-gcn148:1624738:1625089 [1] NCCL INFO New proxy recv connection 18 from local rank 1, transport 0
-gcn148:1624738:1625089 [1] NCCL INFO proxyProgressAsync opId=0x14f753a49490 op.type=1 op.reqBuff=0x14f744004ee0 op.respSize=16 done
-gcn148:1624738:1625095 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x14f753a49490
-gcn148:1624738:1625089 [1] NCCL INFO Received and initiated operation=Init res=0
-gcn148:1624738:1625095 [1] NCCL INFO resp.opId=0x14f753a49490 matches expected opId=0x14f753a49490
-gcn148:1624738:1625095 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x14f7440057b0
-gcn148:1624738:1625089 [1] NCCL INFO proxyProgressAsync opId=0x14f753a49490 op.type=3 op.reqBuff=0x14f744004f00 op.respSize=88 done
-gcn148:1624738:1625095 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x14f753a49490
-gcn148:1624738:1625089 [1] NCCL INFO Received and initiated operation=Setup res=0
-gcn148:1624738:1625095 [1] NCCL INFO resp.opId=0x14f753a49490 matches expected opId=0x14f753a49490
-gcn148:1624738:1625089 [1] NCCL INFO New proxy recv connection 19 from local rank 1, transport 0
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=1 op.reqBuff=0x145730004f00 op.respSize=16 done
-gcn148:1624738:1625095 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x14f753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014485 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x145730005828
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=3 op.reqBuff=0x145730004ee0 op.respSize=88 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO New proxy recv connection 20 from local rank 1, transport 0
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=1 op.reqBuff=0x145730004ee0 op.respSize=16 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014485 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x1457300058a0
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=3 op.reqBuff=0x145730004f00 op.respSize=88 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO New proxy recv connection 21 from local rank 1, transport 0
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=1 op.reqBuff=0x145730004f00 op.respSize=16 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014485 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x145730005918
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=3 op.reqBuff=0x145730004ee0 op.respSize=88 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO New proxy recv connection 22 from local rank 1, transport 0
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=1 op.reqBuff=0x145730004ee0 op.respSize=16 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014485 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x145730005990
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=3 op.reqBuff=0x145730004f00 op.respSize=88 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO New proxy recv connection 23 from local rank 1, transport 0
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=1 op.reqBuff=0x145730004f00 op.respSize=16 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014107:2014485 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x145730005a08
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014107:2014477 [1] NCCL INFO proxyProgressAsync opId=0x145753a49490 op.type=3 op.reqBuff=0x145730004ee0 op.respSize=88 done
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753a49490
-gcn146:2014107:2014477 [1] NCCL INFO Received and initiated operation=Setup res=0
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753a49490 matches expected opId=0x145753a49490
-gcn146:2014113:2014480 [3] NCCL INFO New proxy send connection 24 from local rank 2, transport 0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x14f22fa49490 op.type=1 op.reqBuff=0x1465f4004ee0 op.respSize=16 done
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603a49490 matches expected opId=0x146603a49490
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 2 -> connection 0x14f228005e40
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x14665e5dbb08 opId 0x5f7968de63432b25
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x291639e9651dbe16 handle=0x1465f4008bb0
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4008bb0 peer 2 opId 291639e9651dbe16
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 102 opId 0x5f7968de63432b25 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x14f228011850 tpRank 2 returned fd 102 sameProcess 0
-gcn148:1624744:1625096 [3] NCCL INFO ProxyCall UDS comm 0xae53c60 rank 3 tpRank 6(7cb1368256a79d73) reqSize 8 respSize 0 respFd 0x15151d3dbb08 opId 0xa6dcf8f69ae83f1a
-gcn148:1624744:1625094 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x869344601e2e3cd9 handle=0x1514ac00a4b0
-gcn148:1624744:1625094 [3] NCCL INFO UDS proxyGetFd received handle 0x1514ac00a4b0 peer 2 opId 869344601e2e3cd9
-gcn148:1624744:1625096 [3] NCCL INFO ProxyCall UDS comm 0xae53c60 rank 3 tpRank 6(7cb1368256a79d73) reqSize 8 respSize 0 respFd 101 opId 0xa6dcf8f69ae83f1a - DONE
-gcn148:1624744:1625096 [3] NCCL INFO UDS: ClientGetFd handle 0x147848012f70 tpRank 6 returned fd 101 sameProcess 0
-gcn148:1624744:1625096 [3] NCCL INFO ProxyCall UDS comm 0xae53c60 rank 3 tpRank 6(7cb1368256a79d73) reqSize 8 respSize 0 respFd 0x15151d3dbb08 opId 0x729ac4dbc59a4c97
-gcn148:1624744:1625096 [3] NCCL INFO ProxyCall UDS comm 0xae53c60 rank 3 tpRank 6(7cb1368256a79d73) reqSize 8 respSize 0 respFd 101 opId 0x729ac4dbc59a4c97 - DONE
-gcn148:1624744:1625096 [3] NCCL INFO UDS: ClientGetFd handle 0x147848014690 tpRank 6 returned fd 101 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x14665e5dbb08 opId 0xca0e7a45ff529bbc
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 100 opId 0xca0e7a45ff529bbc - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x14f228015db0 tpRank 2 returned fd 100 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146617f03fd0
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146617f03fd0 matches expected opId=0x146617f03fd0
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 1 -> connection 0x145730005d50
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14665e5dbb08 opId 0x979e73201e41c1a2
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 102 opId 0x979e73201e41c1a2 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x1457300174d0 tpRank 1 returned fd 102 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14665e5dbb08 opId 0x62779d5b1f6af45f
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 102 opId 0x62779d5b1f6af45f - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x145730018bf0 tpRank 1 returned fd 102 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603edb370
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603edb370 matches expected opId=0x146603edb370
-gcn146:2014113:2014486 [3] NCCL INFO Connected to proxy localRank 0 -> connection 0x147bbc005cd8
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 0x14665e5dbb08 opId 0xb0dfbd71d7d910fa
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x877bc6cbfce5802d handle=0x1465f400bbd0
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f400bbd0 peer 2 opId 877bc6cbfce5802d
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 103 opId 0xb0dfbd71d7d910fa - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x147bbc014690 tpRank 0 returned fd 103 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 0x14665e5dbb08 opId 0xc4054d6e1837a70
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 103 opId 0xc4054d6e1837a70 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x147bbc015db0 tpRank 0 returned fd 103 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 0x14665e5dbb08 opId 0xa68a6db3d2630b09
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 103 opId 0xa68a6db3d2630b09 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x147bbc0174d0 tpRank 0 returned fd 103 sameProcess 0
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0xc1731d880ba5f977 handle=0x1465f400d2f0
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f400d2f0 peer 2 opId c1731d880ba5f977
-gcn146:2014113:2014480 [3] NCCL INFO New proxy send connection 25 from local rank 0, transport 0
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x147bd3f03fd0 op.type=1 op.reqBuff=0x1465f4004f00 op.respSize=16 done
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Init res=0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 0x14665e5dbb08 opId 0x652ed1668e013808
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 105 opId 0x652ed1668e013808 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x147bbc018bf0 tpRank 0 returned fd 105 sameProcess 0
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0x987a379d74ae5787 handle=0x1465f4011850
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4011850 peer 0 opId 987a379d74ae5787
-gcn146:2014113:2014486 [3] NCCL INFO sendConnect ncclProxyCallAsync opId=0x146603efc328
-gcn146:2014113:2014486 [3] NCCL INFO recvConnect ncclProxyCallAsync opId=0x146603efc4d8 &recv->proxyConn=0x146603efc4e0 connectInfo=0x146603f34a90
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Connect res=0
-gcn146:2014113:2014486 [3] NCCL INFO sendConnect ncclProxyCallAsync opId=0x146603f14328
-gcn146:2014113:2014486 [3] NCCL INFO recvConnect ncclProxyCallAsync opId=0x146603f144d8 &recv->proxyConn=0x146603f144e0 connectInfo=0x146603f34b90
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Connect res=0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 0x14665e5dbb18 opId 0x9f55f05d06166f88
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Connect res=0
-gcn146:2014113:2014480 [3] NCCL INFO Received and initiated operation=Connect res=0
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0xb3d65157c30010d handle=0x1465f4012f70
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4012f70 peer 0 opId b3d65157c30010d
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 109 opId 0x9f55f05d06166f88 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x147bbc01c1d0 tpRank 0 returned fd 109 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 0x14665e5dbb18 opId 0x567871c760d78e43
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0x7c751f16c9589476 hangcn148:1624744:1625096 [3] NCCL INFO ProxyCall UDS comm 0xae53c60 rank 3 tpRank 4(2d58f15354363155) reqSize 8 respSize 0 respFd 109 opId 0xc4c677c9d075dd42 - DONE
-gcn148:1624744:1625096 [3] NCCL INFO UDS: ClientGetFd handle 0x15212401c1d0 tpRank 4 returned fd 109 sameProcess 0
-gcn148:1624744:1625094 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x3f31e8d83f1400e8 handle=0x1514ac010130
-gcn148:1624744:1625094 [3] NCCL INFO UDS proxyGetFd received handle 0x1514ac010130 peer 1 opId 3f31e8d83f1400e8
-gcn148:1624744:1625096 [3] NCCL INFO ProxyCall UDS comm 0xae53c60 rank 3 tpRank 4(2d58f15354363155) reqSize 8 respSize 0 respFd 0x15151d3dbb18 opId 0x3c0b08c59f0a0ec2
-gcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cfefb588 op.type=4 op.reqBuff=0x1514ac017800 op.respSize=1400 done
-gcn148:1624744:1625094 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0x7e40434d0a483a8e handle=0x1514ac014690
-gcn148:1624744:1625094 [3] NCCL INFO UDS proxyGetFd received handle 0x1514ac014690 peer 0 opId 7e40434d0a483a8e
-gcn148:1624744:1625096 [3] NCCL INFO ProxyCall UDS comm 0xae53c60 rank 3 tpRank 4(2d58f15354363155) reqSize 8 respSize 0 respFd 96 opId 0x3c0b08c59f0a0ec2 - DONE
-gcn148:1624744:1625096 [3] NCCL INFO UDS: ClientGetFd handle 0x15212401d8f0 tpRank 4 returned fd 96 sameProcess 0
-gcn148:1624744:1625094 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x61f3616bf1bf8f0c handle=0x1514ac01f010
-gcn148:1624744:1625094 [3] NCCL INFO UDS proxyGetFd receivegcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f400ea10 peer 1 opId 99fac56f376ef5dd
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 108 opId 0xb1a556bb48d4afa - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x147bbc01f010 tpRagcn148:1624744:1625092 [3] NCCL INFO proxyProgressAsync opId=0x1514cff13588 op.type=4 op.reqBuff=0x1514ac028650 op.respSize=1400 done
-gcn148:1624744:1625094 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0xa89311e47abe3556 handle=0x1514ac020730
-gcn148:1624744:1625094 [3] NCCL INFO UDS proxyGetFd received handle 0x1514ac0gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0xb87d355cfe8d8c99 handle=0x1465f4019390
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4019390 peer 0 opId b87d355cfe8d8c99
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 108 opId 0xe200739b7a5582be - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x147bbc020730 tpRank 0 returned fd 108 sameProcess 0
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0xfabf4acf90047439 handle=0x1465f4010130
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4010130 peer 1 opId fabf4acf90047439
-gcn146:2014113:2014480 [3] NCCL INFO proxyProgressAsync opId=0x146603f14328 op.type=4 op.reqBuff=0x1465f403dde0 op.respSize=1400 done
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14665e5dbb18 opId 0xd7894b1cfe38b69e
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0x2452ed96413818a handle=0x1465f401aab0
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f401aab0 peer 0 opId 2452ed96413818a
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 97 opId 0xd7894b1cfe38b69e - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x14573001c1d0 tpRank 1 returned fd 97 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14665e5dbb18 opId 0x5a91a9e40204d379
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x8ddb54aee64331b4 handle=0x1465f401f010
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f401f010 peer 1 opId 8ddb54aee64331b4
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 97 opId 0x5a91a9e40204d379 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x14573001d8f0 tpRank 1 returned fd 97 sameProcess 0
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0xf5dc8de3c1c87d49 handle=0x1465f401c1d0
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f401c1d0 peer 0 opId f5dc8de3c1c87d49
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x14665e5dbb18 opId 0xefe250639f7ebe07
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x3b9ef36c34dc1038 handle=0x1465f4020730
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4020730 peer 1 opId 3b9ef36c34dc1038
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0x2fe0db583e4792a6 handle=0x1465f401d8f0
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f401d8f0 peer 0 opId 2fe0db583e4792a6
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 105 opId 0xefe250639f7ebe07 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x14f228024c90 tpRank 2 returned fd 105 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x14665e5dbb18 opId 0xe69e5cd46bb56eeb
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 105 opId 0xe69e5cd46bb56eeb - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x14f2280263b0 tpRank 2 returned fd 105 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x14665e5dbb18 opId 0x3781a7130ccbc536
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 105 opId 0x3781a7130ccbc536 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x14f228027ad0 tpRank 2 returned fd 105 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x14665e5dbb18 opId 0x72f083e34f98a343
-gcn146:2014113:2014486 [3] NCCL INFO ProxyCall UDS comm 0x9fc4ae0 rank 3 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 105 opId 0x72f083e34f98a343 - DONE
-gcn146:2014113:2014486 [3] NCCL INFO UDS: ClientGetFd handle 0x14f2280291f0 tpRank 2 returned fd 105 sameProcess 0
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603efc328
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603efc328 matches expected opId=0x146603efc328
-gcn146:2014113:2014486 [3] NCCL INFO sendConnect ncclPollProxyResponse opId=0x146603efc328
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603efc4d8
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603efc4d8 matches expected opId=0x146603efc4d8
-gcn146:2014113:2014486 [3] NCCL INFO recvConnect ncclPollProxyResponse opId=0x146603efc4d8
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x75a100a8cb22a5d handle=0x1465f4021e50
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4021e50 peer 2 opId 75a100a8cb22a5d
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603f144d8
-gcn146:2014113:2014486 [3] NCCL INFO Queuing opId=0x146603f144d8 respBuff=0x146603f5d410 respSize=1400
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Dequeued cached opId=0x146603f144d8
-gcn146:2014113:2014486 [3] NCCL INFO recvConnect ncclPollProxyResponse opId=0x146603f144d8
-gcn146:2014113:2014486 [3] NCCL INFO ncclPollProxyResponse Received new opId=0x146603f14328
-gcn146:2014113:2014486 [3] NCCL INFO resp.opId=0x146603f14328 matches expected opId=0x146603f14328
-gcn146:2014113:2014486 [3] NCCL INFO sendConnect ncclPollProxyResponse opId=0x146603f14328
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0xed51b90208469f2b handle=0x1465f4023570
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4023570 peer 2 opId ed51b90208469f2b
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x42fdb2bcebbb3fa5 handle=0x1465f4024c90
-gcn146:2014113:2014484 [3] NCCL INFO UDS proxyGetFd received handle 0x1465f4024c90 peer 2 opId 42fdb2bcebbb3fa5
-gcn146:2014113:2014484 [3] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0xdcb0e997ef787d0b handle=0x1465f40263b0
-gcn146:2014113:20gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624744:1625092 [3] NCCL INFO Received and initiated operation=Stop res=0
-gcn148:1624744:1625094 [3] NCCL INFO [Proxy Service UDS] exit: stop 1 abortFlag 0
-=Close res=0
-gcn146:2014113:2014484 [3] NCCL INFO [Proxy Service UDS] exit: stop 1 abortFlag 0
-comm 0xb57efa0 rank 1 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 97 opId 0xd8d66a164f002bf4 - DONE
-gcn146:2014107:2014485 [1] NCCL INFO UDS: ClientGetFd handle 0x147bbc0291f0 tpRank 0 returned fd 97 sameProcess 0
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0xf706d50bcd596984 handle=0x145730027ad0
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x145730027ad0 peer 0 opId f706d50bcd596984
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x1457a1bddb08 opId 0xf627735756d58023
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 96 opId 0xf627735756d58023 - DONE
-gcn146:2014107:2014485 [1] NCCL INFO UDS: ClientGetFd handle 0x14f22802d750 tpRank 2 returned fd 96 sameProcess 0
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0x5ef2f10baf3424ef handle=0x1457300291f0
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x1457300291f0 peer 0 opId 5ef2f10baf3424ef
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0xa1a230601f378450 handle=0x145730020730
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x145730020730 peer 2 opId a1a230601f378450
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 0x1457a1bddb18 opId 0x375c5bff9e7c9bf9
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0x419ce152bd81f6ef handle=0x14573002a910
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x14573002a910 peer 0 opId 419ce152bd81f6ef
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 96 opId 0x375c5bff9e7c9bf9 - DONE
-gcn146:2014107:2014485 [1] NCCL INFO UDS: ClientGetFd handle 0x147bbc02a910 tpRank 0 returned fd 96 sameProcess 0
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 0 opId 0xe17c509bbe15a893 handle=0x14573002c030
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x14573002c030 peer 0 opId e17c509bbe15a893
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x1457a1bddb08 opId 0xad92df046f70cabb
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0xc89beaecbd751272 handle=0x145730021e50
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x145730021e50 peer 2 opId c89beaecbd751272
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 97 opId 0xad92df046f70cabb - DONE
-gcn146:2014107:2014485 [1] NCCL INFO UDS: ClientGetFd handle 0x14f22802ee70 tpRank 2 returned fd 97 sameProcess 0
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x1457a1bddb08 opId 0xf8cc5c8dffb34128
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x2988edee379176a9 handle=0x145730023570
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x145730023570 peer 2 opId 2988edee379176a9
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 97 opId 0xf8cc5c8dffb34128 - DONE
-gcn146:2014107:2014485 [1] NCCL INFO UDS: ClientGetFd handle 0x14f228030590 tpRank 2 returned fd 97 sameProcess 0
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 0x1457a1bddb18 opId 0xcf28d3783b00adcd
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 0(b280f064562a5f9c) reqSize 8 respSize 0 respFd 97 opId 0xcf28d3783b00adcd - DONE
-gcn146:2014107:2014485 [1] NCCL INFO UDS: ClientGetFd handle 0x147bbc02c030 tpRank 0 returned fd 97 sameProcess 0
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 0x1457a1bddb08 opId 0x2d36b6c61c83b4a1
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x112f7a9ce9c6f4b6 handle=0x145730024c90
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x145730024c90 peer 2 opId 112f7a9ce9c6f4b6
-gcn146:2014107:2014485 [1] NCCL INFO ProxyCall UDS comm 0xb57efa0 rank 1 tpRank 2(6e9b0a64892e6d0b) reqSize 8 respSize 0 respFd 97 opId 0x2d36b6c61c83b4a1 - DONE
-gcn146:2014107:2014485 [1] NCCL INFO UDS: ClientGetFd handle 0x14f228031cb0 tpRank 2 returned fd 97 sameProcess 0
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753eefd68
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753eefd68 matches expected opId=0x145753eefd68
-gcn146:2014107:2014485 [1] NCCL INFO sendConnect ncclPollProxyResponse opId=0x145753eefd68
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753eeff18
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753eeff18 matches expected opId=0x145753eeff18
-gcn146:2014107:2014485 [1] NCCL INFO recvConnect ncclPollProxyResponse opId=0x145753eeff18
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753f07c58
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753f07c58 matches expected opId=0x145753f07c58
-gcn146:2014107:2014485 [1] NCCL INFO sendConnect ncclPollProxyResponse opId=0x145753f07c58
-gcn146:2014107:2014485 [1] NCCL INFO ncclPollProxyResponse Received new opId=0x145753f07e08
-gcn146:2014107:2014485 [1] NCCL INFO resp.opId=0x145753f07e08 matches expected opId=0x145753f07e08
-gcn146:2014107:2014485 [1] NCCL INFO recvConnect ncclPollProxyResponse opId=0x145753f07e08
-gcn146:2014107:2014482 [1] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0xe428e1c8f3d8dbb7 handle=0x1457300263b0
-gcn146:2014107:2014482 [1] NCCL INFO UDS proxyGetFd received handle 0x1457300263b0 peer 2 opId e428e1c8f3d8dbb7
-gcn1gcn148:1624752:1625091 [0] NCCL INFO Received and initiated operation=Stop res=0
-gcn148:1624752:1625091 [0] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624752:1625091 [0] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624752:1625091 [0] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624752:1625091 [0] NCCL INFO Received and initiated operation=Close regcn146:2014107:2014482 [1] NCCL INFO [Proxy Service UDS] exit: stop 1 abortFlag 0
-1 abortFlag 0
-nd initiated operation=Close res=0
-gcn148:1624738:1625089 [1] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624738:1625089 [1] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624738:1625090 [1] NCCL INFO [Proxy Service UDS] exit: stop 1 abortFlag 0
- respSize 0 respFd 0x14f294ddab08 opId 0x75a100a8cb22a5d
-gcn146:2014128:2014481 [2] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0xf627735756d58023 handle=0x14f22802d750
-gcn146:2014128:2014481 [2] NCCL INFO UDS proxyGetFd received handle 0x14f22802d750 peer 1 opId f627735756d58023
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 3(b636933e2ff36057) reqSize 8 respSize 0 respFd 106 opId 0x75a100a8cb22a5d - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x1465f4021e50 tpRank 3 returned fd 106 sameProcess 0
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14f294ddab18 opId 0xa1a230601f378450
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 97 opId 0xa1a230601f378450 - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x145730020730 tpRank 1 returned fd 97 sameProcess 0
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 3(b636933e2ff36057) reqSize 8 respSize 0 respFd 0x14f294ddab08 opId 0xed51b90208469f2b
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 3(b636933e2ff36057) reqSize 8 respSize 0 respFd 97 opId 0xed51b90208469f2b - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x1465f4023570 tpRank 3 returned fd 97 sameProcess 0
-gcn146:2014128:2014481 [2] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0xad92df046f70cabb handle=0x14f22802ee70
-gcn146:2014128:2014481 [2] NCCL INFO UDS proxyGetFd received handle 0x14f22802ee70 peer 1 opId ad92df046f70cabb
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14f294ddab18 opId 0xc89beaecbd751272
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 96 opId 0xc89beaecbd751272 - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x145730021e50 tpRank 1 returned fd 96 sameProcess 0
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14f294ddab18 opId 0x2988edee379176a9
-gcn146:2014128:2014481 [2] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0xf8cc5c8dffb34128 handle=0x14f228030590
-gcn146:2014128:2014481 [2] NCCL INFO UDS proxyGetFd received handle 0x14f228030590 peer 1 opId f8cc5c8dffb34128
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 96 opId 0x2988edee379176a9 - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x145730023570 tpRank 1 returned fd 96 sameProcess 0
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 3(b636933e2ff36057) reqSize 8 respSize 0 respFd 0x14f294ddab08 opId 0x42fdb2bcebbb3fa5
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 3(b636933e2ff36057) reqSize 8 respSize 0 respFd 97 opId 0x42fdb2bcebbb3fa5 - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x1465f4024c90 tpRank 3 returned fd 97 sameProcess 0
-gcn146:2014128:2014481 [2] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x2d36b6c61c83b4a1 handle=0x14f228031cb0
-gcn146:2014128:2014481 [2] NCCL INFO UDS proxyGetFd received handle 0x14f228031cb0 peer 1 opId 2d36b6c61c83b4a1
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14f294ddab18 opId 0x112f7a9ce9c6f4b6
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 96 opId 0x112f7a9ce9c6f4b6 - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x145730024c90 tpRank 1 returned fd 96 sameProcess 0
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 3(b636933e2ff36057) reqSize 8 respSize 0 respFd 0x14f294ddab08 opId 0xdcb0e997ef787d0b
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 3(b636933e2ff36057) reqSize 8 respSize 0 respFd 97 opId 0xdcb0e997ef787d0b - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x1465f40263b0 tpRank 3 returned fd 97 sameProcess 0
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 0x14f294ddab18 opId 0xe428e1c8f3d8dbb7
-gcn146:2014128:2014487 [2] NCCL INFO ProxyCall UDS comm 0xa638c00 rank 2 tpRank 1(add881f843d2f1c7) reqSize 8 respSize 0 respFd 97 opId 0xe428e1c8f3d8dbb7 - DONE
-gcn146:2014128:2014487 [2] NCCL INFO UDS: ClientGetFd handle 0x1457300263b0 tpRank 1 returned fd 97 sameProcess 0
-gcn146:2014128:2014487 [2] NCCL INFO ncclPollProxyResponse Received new opId=0x14f22fef5fc0
-gcn146:2014128:2014487 [2] NCCL INFO resp.opId=0x14f22fef5fc0 matches expected opId=0x14f22fef5fc0
-gcn146:2014128:2014487 [2] NCCL INFO sendConnect ncclPollProxyResponse opId=0x14f22fef5fc0
-gcn146:2014128:2014487 [2] NCCL INFO ncclPollProxyResponse Received new opId=0x14f22fef6170
-gcn146:2014128:2014487 [2] NCCL INFO resp.opId=0x14f22fef6170 matches expected opId=0x14f22fef6170
-gcn146:2014128:2014487 [2] NCCL INFO recvConnect ncclPollProxyResponse opId=0x14f22fef6170
-gcn146:2014128:2014487 [2] NCCL INFO ncclPollProxyResponse Received new opId=0x14f22ff0dfc0
-gcn146:2014128:2014487 [2] NCCL INFO resp.opId=0x14f22ff0dfc0 matches expected opId=0x14f22ff0dfc0
-gcn146:2014128:2014487 [2] NCCL INFO sendConnect ncclPollProxyResponse opId=0x14f22ff0dfc0
-gcn146:2014128:2014487 [2] NCCL INFO ncclPollProxyResponse Received new opId=0x14f22ff0e170
-gcn146:2014128:2014487 [2] NCCL INFO resp.opId=0x14f22ff0e170 matches expected opId=0x14f22ff0e170
-gcn146:2014128:2014487 [2] NCCL INFO recvConnect ncclPollProxyResponse opId=0x14f22ff0e170
-gcn146:2014128:2014479 [2] NCCL INFO Received and initiated operation=Close res=0
-gcn146:2014128:2014479 [2] NCCL INFO Received and initiated operation=Close res=0
-gcn146:2014128:2014479 [2] NCCL INFO Receivegcn148:1624731:1625087 [2] NCCL INFO Received and initiated operation=Stop res=0
-gcn148:1624731:1625087 [2] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624731:1625087 [2] NCCL INFO Rgcn146:2014128:2014481 [2] NCCL INFO [Proxy Service UDS] exit: stop 1 abortFlag 0
-eceived and initiated operation=Close res=0
-gcn148:1624731:1625087 [2] NCCL INFO Received and initiated operation=Close res=0
-gcn148:1624731:1625088 [2] NCCL INFO [Proxy Service UDS] exit: stop 1 abortFlag 0
+gcn148:1685149:1685149 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn148:1685149:1685443 [0] NCCL INFO UDS: Creating service thread comm 0xace9260 rank 4
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 0 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4004f40
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 1 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4004fb8
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 2 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005030
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 3 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f40050a8
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 4 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005120
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 5 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005198
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 6 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005210
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 7 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005288
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 8 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005300
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 9 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005378
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 10 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f40053f0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 11 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005468
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 12 from local rank 0, transport 2
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f40054e0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f401a610 op.respSize=128 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 13 from local rank 0, transport 2
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005558
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f401a610 op.respSize=128 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 14 from local rank 0, transport 2
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f40055d0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f401a610 op.respSize=0 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 15 from local rank 0, transport 2
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005648
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f401a610 op.respSize=0 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 16 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f40056c0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 17 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005738
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 18 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f40057b0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 19 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005828
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 20 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f40058a0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 21 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005918
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 22 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005990
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 23 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005a08
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 24 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005a80
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 25 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005af8
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 26 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005b70
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004f00 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy recv connection 27 from local rank 0, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x1489f4005be8
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a492c0 op.type=3 op.reqBuff=0x1489f4004ee0 op.respSize=88 done
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Setup res=0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a492c0 matches expected opId=0x148a03a492c0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x1534ec005c60
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0x2406caa179f3b3c3
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 100 opId 0x2406caa179f3b3c3 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1534ec008bb0 tpRank 5 returned fd 100 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0x954bd11ffd13591a
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 100 opId 0x954bd11ffd13591a - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1534ec00a4b0 tpRank 5 returned fd 100 sameProcess 0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 28 from local rank 1, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x15350bf03fd0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x64eb85254852660a handle=0x1489f4008bb0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4008bb0 peer 1 opId 64eb85254852660a
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0xf0fb26b8c6405227
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 101 opId 0xf0fb26b8c6405227 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1534ec00bbd0 tpRank 5 returned fd 101 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0x720c66a6da745a6b
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 101 opId 0x720c66a6da745a6b - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1534ec00d2f0 tpRank 5 returned fd 101 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a17f03fd0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a17f03fd0 matches expected opId=0x148a17f03fd0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 2 -> connection 0x1499c0005f30
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0xf35ee583908095b
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0xba5417449aa04af handle=0x1489f400a4b0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f400a4b0 peer 1 opId ba5417449aa04af
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 102 opId 0xf35ee583908095b - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1499c00174d0 tpRank 6 returned fd 102 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0x6dcd2fa2ef7a946c
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 102 opId 0x6dcd2fa2ef7a946c - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1499c0018bf0 tpRank 6 returned fd 102 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0x260bea79f5a610ac
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 102 opId 0x260bea79f5a610ac - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1499c001a310 tpRank 6 returned fd 102 sameProcess 0
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 29 from local rank 3, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x146557edb1a0 op.type=1 op.reqBuff=0x1489f4004f00 op.respSize=16 done
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 3 opId 0x4095d799cd8d785c handle=0x1489f4014690
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4014690 peer 3 opId 4095d799cd8d785c
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0xdc56685faa5a6f95
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x2457350469fef824 handle=0x1489f400bbd0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f400bbd0 peer 1 opId 2457350469fef824
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 103 opId 0xdc56685faa5a6f95 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1499c001ba30 tpRank 6 returned fd 103 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 3 opId 0x80da41f8c2df14f0 handle=0x1489f4015db0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4015db0 peer 3 opId 80da41f8c2df14f0
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a17f03fd0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a17f03fd0 matches expected opId=0x148a17f03fd0
+gcn148:1685149:1685482 [0] NCCL INFO Connected to proxy localRank 3 -> connection 0x146548005af8
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0xfbd5446ebf5bd2a3
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 102 opId 0xfbd5446ebf5bd2a3 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x146548011850 tpRank 7 returned fd 102 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 3 opId 0x74b267579173a5c7 handle=0x1489f40174d0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f40174d0 peer 3 opId 74b267579173a5c7
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0x9fecc62de11e1a4b
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x4b6da024c663c125 handle=0x1489f400d2f0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f400d2f0 peer 1 opId 4b6da024c663c125
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 105 opId 0x9fecc62de11e1a4b - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x146548012f70 tpRank 7 returned fd 105 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 3 opId 0x9be90157812c4b8b handle=0x1489f4018bf0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4018bf0 peer 3 opId 9be90157812c4b8b
+gcn148:1685149:1685476 [0] NCCL INFO New proxy send connection 30 from local rank 2, transport 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x1499dff03fd0 op.type=1 op.reqBuff=0x1489f4004ee0 op.respSize=16 done
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Init res=0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x7825a1929234107f handle=0x1489f400ea10
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f400ea10 peer 2 opId 7825a1929234107f
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0x3acc287ad075582c
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 3 opId 0x9865462ba3da583c handle=0x1489f401c1d0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f401c1d0 peer 3 opId 9865462ba3da583c
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 105 opId 0x3acc287ad075582c - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x146548014690 tpRank 7 returned fd 105 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x6ff475c14c4dbd88 handle=0x1489f4010130
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4010130 peer 2 opId 6ff475c14c4dbd88
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 0x148a6c5fdb18 opId 0xe7a39b9808db9910
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 3 opId 0xb029335c04a555f8 handle=0x1489f401d8f0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f401d8f0 peer 3 opId b029335c04a555f8
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 104 opId 0xe7a39b9808db9910 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x146548015db0 tpRank 7 returned fd 104 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x84e01f5741ee6829 handle=0x1489f4011850
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4011850 peer 2 opId 84e01f5741ee6829
+gcn148:1685149:1685482 [0] NCCL INFO sendConnect ncclProxyCallAsync opId=0x148a03a4ab00
+gcn148:1685149:1685482 [0] NCCL INFO recvConnect ncclProxyCallAsync opId=0x148a03a4acb0 &recv->proxyConn=0x148a03a4acb8 connectInfo=0x148a03f348c0
+gcn148:1685149:1685482 [0] NCCL INFO sendConnect ncclProxyCallAsync opId=0x148a03f00980
+gcn148:1685149:1685482 [0] NCCL INFO recvConnect ncclProxyCallAsync opId=0x148a03f00b30 &recv->proxyConn=0x148a03f00b38 connectInfo=0x148a03f349c0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0x634fc366a3719276
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Connect res=0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Connect res=0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Connect res=0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Connect res=0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 3 opId 0x1a49c88de63021d4 handle=0x1489f401f010
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f401f010 peer 3 opId 1a49c88de63021d4
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 107 opId 0x634fc366a3719276 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x146548019390 tpRank 7 returned fd 107 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x9be96f476bd5ed4e handle=0x1489f4012f70
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4012f70 peer 2 opId 9be96f476bd5ed4e
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0xd8209cfa1b203eca
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 108 opId 0xd8209cfa1b203eca - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x14654801aab0 tpRank 7 returned fd 108 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 3 opId 0x7cda032fc6a33c68 handle=0x1489f4020730
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4020730 peer 3 opId 7cda032fc6a33c68
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0xe4724eed957b93a7
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x8aedfaf7a1f5f99f handle=0x1489f4021e50
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4021e50 peer 2 opId 8aedfaf7a1f5f99f
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 109 opId 0xe4724eed957b93a7 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x14654801c1d0 tpRank 7 returned fd 109 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0xb1d741bdff8b1a66
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0xa526e748430c723e handle=0x1489f4023570
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4023570 peer 2 opId a526e748430c723e
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 7(1648d5860722d67f) reqSize 8 respSize 0 respFd 105 opId 0xb1d741bdff8b1a66 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x14654801d8f0 tpRank 7 returned fd 105 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0xee6fc42c06c9d089 handle=0x1489f4024c90
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4024c90 peer 2 opId ee6fc42c06c9d089
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0x2b694e1aed067d15
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 109 opId 0x2b694e1aed067d15 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1499c001f010 tpRank 6 returned fd 109 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0xff4d43824486029c
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 2 opId 0x62fb62c9e77dcc84 handle=0x1489f40263b0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f40263b0 peer 2 opId 62fb62c9e77dcc84
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a4ab00 op.type=4 op.reqBuff=0x1489f401a640 op.respSize=1400 done
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 95 opId 0xff4d43824486029c - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1499c0020730 tpRank 6 returned fd 95 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0x32e48b5c5e39745c
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 105 opId 0x32e48b5c5e39745c - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1499c0021e50 tpRank 6 returned fd 105 sameProcess 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03a4acb0 op.type=4 op.reqBuff=0x1489f4004f00 op.respSize=1400 done
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0xcb57f5afa7d6adf7 handle=0x1489f4027ad0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f4027ad0 peer 1 opId cb57f5afa7d6adf7
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0x87ce6f66a75fca5b
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 6(b0c24cb1f371570f) reqSize 8 respSize 0 respFd 105 opId 0x87ce6f66a75fca5b - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1499c0023570 tpRank 6 returned fd 105 sameProcess 0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03f00980 op.type=4 op.reqBuff=0x1489f402dd50 op.respSize=1400 done
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0xb2714d1cac8d3032
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 97 opId 0xb2714d1cac8d3032 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1534ec027ad0 tpRank 5 returned fd 97 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0xb0dcb46b305244f0
+gcn148:1685149:1685476 [0] NCCL INFO proxyProgressAsync opId=0x148a03f00b30 op.type=4 op.reqBuff=0x1489f4004ee0 op.respSize=1400 done
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x97c330bf23437ad2 handle=0x1489f40291f0
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f40291f0 peer 1 opId 97c330bf23437ad2
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 97 opId 0xb0dcb46b305244f0 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1534ec0291f0 tpRank 5 returned fd 97 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0xdda050537162bc93
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 97 opId 0xdda050537162bc93 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1534ec02a910 tpRank 5 returned fd 97 sameProcess 0
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0x99331bd70947bd7b handle=0x1489f402a910
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f402a910 peer 1 opId 99331bd70947bd7b
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 0x148a6c5fdb08 opId 0x64d3c5b90b94e362
+gcn148:1685149:1685482 [0] NCCL INFO ProxyCall UDS comm 0xace9260 rank 0 tpRank 5(24beeb926ca707c2) reqSize 8 respSize 0 respFd 97 opId 0x64d3c5b90b94e362 - DONE
+gcn148:1685149:1685482 [0] NCCL INFO UDS: ClientGetFd handle 0x1534ec02c030 tpRank 5 returned fd 97 sameProcess 0
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a4ab00
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a4ab00 matches expected opId=0x148a03a4ab00
+gcn148:1685149:1685482 [0] NCCL INFO sendConnect ncclPollProxyResponse opId=0x148a03a4ab00
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03a4acb0
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03a4acb0 matches expected opId=0x148a03a4acb0
+gcn148:1685149:1685482 [0] NCCL INFO recvConnect ncclPollProxyResponse opId=0x148a03a4acb0
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03f00980
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03f00980 matches expected opId=0x148a03f00980
+gcn148:1685149:1685482 [0] NCCL INFO sendConnect ncclPollProxyResponse opId=0x148a03f00980
+gcn148:1685149:1685482 [0] NCCL INFO ncclPollProxyResponse Received new opId=0x148a03f00b30
+gcn148:1685149:1685482 [0] NCCL INFO resp.opId=0x148a03f00b30 matches expected opId=0x148a03f00b30
+gcn148:1685149:1685482 [0] NCCL INFO recvConnect ncclPollProxyResponse opId=0x148a03f00b30
+gcn148:1685149:1685478 [0] NCCL INFO proxyUDSRecvReq::ncclProxyMsgGetFd rank 1 opId 0xb2c543bc714fead8 handle=0x1489f402c030
+gcn148:1685149:1685478 [0] NCCL INFO UDS proxyGetFd received handle 0x1489f402c030 peer 1 opId b2c543bc714fead8
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Stop res=0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Close res=0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Close res=0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Close res=0
+gcn148:1685149:1685476 [0] NCCL INFO Received and initiated operation=Close res=0
+gcn148:1685149:1685478 [0] NCCL INFO [Proxy Service UDS] exit: stop 1 abortFlag 0

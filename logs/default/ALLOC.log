@@ -1,72 +1,71 @@
-gcn146:2011647:2011647 [1] NCCL INFO NCCL version 2.27.3+cuda12.9
-gcn146:2011647:2011647 [1] NCCL INFO init.cc:1792 Cuda Host Alloc Size 4 pointer 0x150f35a00000
-gcn148:1622475:1622796 [1] NCCL INFO Mem Realloc old size 0, new size 256 pointer 0x1492df556fd0
-gcn148:1622475:1622829 [0] NCCL INFO Mem Realloc old size 0, new size 32 pointer 0x1492d4004b80
-gcn146:2011640:2012038 [0] NCCL INFO Mem Realloc old size 32, new size 64 pointer 0x1474b0005580
-gcn148:1622481:1622794 [3] NCCL INFO misc/utils.cc:233 memory stack hunk malloc(65536)
-gcn148:1622481:1622794 [3] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x1455e4600000
-gcn148:1622481:1622794 [3] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x1455e4800000
-gcn146:2011640:2012011 [2] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x1474f8a00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x14fb1cc00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x14fb1ce00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x14fb1d000000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x14fb1d200000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x14fb1d400000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x14fb1d600000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x14fb1d800000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x14fb1da00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x14fb1dc00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x14fb1de00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x14fb1e000000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x14fb1e200000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x14fb1e400000
-gcn146:2011640:2012011 [2] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x1474fa600000
-gcn146:2011640:2012011 [2] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x1474fa800000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x14fb1ea00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x14fb1ec00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x14fb1ee00000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x14fb1f000000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x14fb1f200000
-gcn146:2011662:2012010 [3] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x14fb1f400000
-gcn146:2011662:2012010 [3] NCCL INFO init.cc:447 Cuda Alloc Size 23648 pointer 0x14fb1f600000
-gcn146:2011662:2012010 [3] NCCL INFO init.cc:449 Cuda Alloc Size 32 pointer 0x14fb1f800000
-gcn146:2011662:2012010 [3] NCCL INFO init.cc:491 Cuda Host Alloc Size 1048576 pointer 0x14fb15a00200
-gcn146:2011662:2012010 [3] NCCL INFO init.cc:501 Cuda Host Alloc Size 65536 pointer 0x14fb15b00200
-gcn146:2011662:2012010 [3] NCCL INFO init.cc:502 Cuda Host Alloc Size 65536 pointer 0x14fb15b10200
-gcn148:1622468:1622468 [2] NCCL INFO misc/utils.cc:233 memory stack hunk malloc(65536)
-gcn146:2011640:2012046 [2] NCCL INFO Mem Realloc old size 0, new size 8 pointer 0x1474ac004f20
-gcn146:2011640:2012046 [2] NCCL INFO Allocated shareable buffer 0x1474ffa00000 size 10485760 ipcDesc 0x1474ac008b60
-gcn146:2011640:2012046 [2] NCCL INFO Allocated shareable buffer 0x147500400000 size 10485760 ipcDesc 0x1474ac008b60
-gcn148:1622475:1622837 [1] NCCL INFO Allocated shareable buffer 0x149324e00000 size 10485760 ipcDesc 0x1492cc008bgcn148:1622489:1622833 [0] NCCL INFO Allocated shareable buffer 0x14654a000000 size 2097152 ipcDesc 0x1464fc008b60
-gcn148:1622489:1622833 [0] NCCL INFO Allocated shareable buffer 0x14654a200000 size 2097152 ipcDesc 0x1464fc008b60
-gcn148:1622489:1622833 [0] NCCL INFO Allocated shareable buffer 0x14654a400000 size 2097152 ipcDesc 0x1464fc008b60
-gcn148:1622489:1622833 [0] NCCL INFO Allocated shareable buffer 0x14654a600000 size 2097152 ipcDesc 0x1464fc008b60
-gcn148:1622489:1622833 [0] NCCL INFO Allocated shareable buffer 0x14654a800000 size 2097152 ipcDesc 0x1464fc008b60
-gcn148:1622489:1622833 [0] NCCL INFO Allocated shareable buffer 0x14654aa00000 size 2097152 ipcDesc 0x1464fc008b60
-gcn148:1622489:1622833 [0] NCCL INFO Allocated shareable buffer 0x14654ac00000 size 2097152 ipcDesc 0x1464fc008b60
-gcn148:162gcn148:1622481:1622832 [3] NCCL INFO Allocated 33030532 bytes of shared memory in /dev/shm/nccl-GYcXny
-gcn146:2011662:2012048 [3] NCCL INFO Allocated shareable buffer 0x14fb29e00000 size 2097152 ipcDesc 0x14fad0008b60
-gcn146:2011662:2012048 [3] NCCL INFO Allocated shareable buffer 0x14fb2a000000 size 2097152 ipcDesc 0x14fad0008b60
-gcn146:2011662:2012048 [3] NCCL INFO Allocated shareable buffer 0x14fb2a200000 size 2097152 ipcDesc 0x14fad0008b60
-gcn146:2011662:2012048 [3] NCCL INFO Allocated shareable buffer 0x14fb2a400000 size 2097152 ipcDesc 0x14fad0008gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x150f48600000 size 10485760 ipcDesc 0x150ef0008b60
-gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x150f49000000 size 10485760 ipcDesc 0x150ef0008b60
-gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x150f49a00000 size 10485760 ipcDesc 0x150ef0008b60
-gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x150f4a400000 size 10485760 ipcDesc 0x150ef0008b60
-gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x150f4ae00000 size 10485760 ipcDesc 0x150ef0008b60
-gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x150f4b800000 size 10485760 ipcDesc 0x150ef0008b6gcn146:2011662:2012048 [3] NCCL INFO Allocated shareable buffer 0x14fb2d000000 size 10485760 ipcDesc 0x14fad0018848
-gcn146:2011662:2012048 [3] NCCL INFO transport/net.cc:811 Cuda Host Alloc Size 532480 pointer 0x14fb15b20200
-gcn146:2011662:2012048 [3] NCCL INFO Mem Realloc old size 0, new size 1024 pointer 0x14fad00916b0
-gcn146:2011662:2012048 [3] NCCL INFO Allocated shareable buffer 0x14fb2ee00000 size 9633792 ipcDesc 0x14fad00179c8
-gcn146:2011662:2012048 [gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x602000000 size 9633792 ipcDesc 0x150ef001a808
-gcn146:2011647:2012043 [1] NCCL INFO transport/net.cc:972 Cuda Host Alloc Size 8192 pointer 0x150f35b20200
-gcn146:2011647:2012043 [1] NCCL INFO Mem Realloc old size 0, new size 1024 pointer 0x150ef004c820
-gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x604000000 size 9633792 ipcDesc 0x150ef001af98
-gcn146:2011647:2012043 [1] NCCL INFO transport/net.cc:972 Cuda Host Alloc Size 8192 pointer 0x150f35b22200
-gcn146:2011647:2012043 [1] NCCL INFO Allocated shareable buffer 0x605600000 size 10485760 ipcDesc 0x150ef001b688
-gcn146:2011647:2012043 [1] NCCL INFO transport/net.cc:811 Cuda Host Alloc Size 532480 pointer 0x150f35b24200
-gcn148:1622475:1622837 [1] NCCL INFO Allocated shareable buffer 0x608000000 size 9633792 ipcDesc 0x1492cc01af98
-gcn148:1622475:1622837 [1] NCCL INFO transport/net.cc:972 Cuda Host Alloc Size 8192 pointer 0x149315ba4200
-192 pointer 0x14ce5fba22gcngcn148:1622468:1622831 [2] NCCL INFO Allocated shareable buffer 0x605400000 size 10485760 ipcDesc 0x14ce1c01eb08
-gcn148:1622468:1622831 [2] NCCL INFO transport/net.cc:811 Cuda Host Alloc Size 532480 pointer 0x605e000gcn146:2011640:2012046 [2] NCCL INFO Allocated shareable buffer 0x608000000 size 10485760 ipcDesc 0x1474ac01eb08
-gcn146:2011640:2012046 [2] NCCL INFO transport/net.cc:811 Cuda Host Alloc Size 532480 pointer 0x608a00000
-00
+gcn148:1682879:1682879 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn148:1682879:1682879 [0] NCCL INFO init.cc:1792 Cuda Host Alloc Size 4 pointer 0x150cb1a00000
+gcn148:1682879:1683187 [0] NCCL INFO Mem Realloc old size 0, new size 256 pointer 0x150c7b556fd0
+gcn148:1682879:1683219 [0] NCCL INFO Mem Realloc old size 0, new size 32 pointer 0x150c70004b80
+gcn148:1682879:1683219 [0] NCCL INFO Mem Realloc old size 32, new size 64 pointer 0x150c700054d0
+gcn148:1682879:1683187 [0] NCCL INFO misc/utils.cc:233 memory stack hunk malloc(65536)
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x150cb8600000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x150cb8800000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x150cb8a00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x150cb8c00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x150cb8e00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x150cb9000000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x150cb9200000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x150cb9400000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x150cb9600000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x150cb9800000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x150cb9a00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x150cb9c00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x150cb9e00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x150cba000000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x150cba200000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x150cba400000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x150cba600000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x150cba800000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x150cbaa00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x150cbac00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x150cbae00000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:42 Cuda Alloc Size 4864 pointer 0x150cbb000000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:45 Cuda Alloc Size 104 pointer 0x150cbb200000
+gcn148:1682879:1683187 [0] NCCL INFO channel.cc:56 Cuda Alloc Size 32 pointer 0x150cbb400000
+gcn148:1682879:1683187 [0] NCCL INFO init.cc:447 Cuda Alloc Size 23648 pointer 0x150cbb600000
+gcn148:1682879:1683187 [0] NCCL INFO init.cc:449 Cuda Alloc Size 32 pointer 0x150cbb800000
+gcn148:1682879:1683187 [0] NCCL INFO init.cc:491 Cuda Host Alloc Size 1048576 pointer 0x150cb1a00200
+gcn148:1682879:1683187 [0] NCCL INFO init.cc:501 Cuda Host Alloc Size 65536 pointer 0x150cb1b00200
+gcn148:1682879:1683187 [0] NCCL INFO init.cc:502 Cuda Host Alloc Size 65536 pointer 0x150cb1b10200
+gcn148:1682879:1682879 [0] NCCL INFO misc/utils.cc:233 memory stack hunk malloc(65536)
+gcn148:1682879:1683229 [0] NCCL INFO Mem Realloc old size 0, new size 8 pointer 0x150c6c004f20
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cbfa00000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cbfc00000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cbfe00000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc0000000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc0200000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc0400000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc0600000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc0800000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc0a00000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc0c00000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc0e00000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc1000000 size 2097152 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated 33030532 bytes of shared memory in /dev/shm/nccl-LnuJmN
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc1200000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc1c00000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc2600000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc3000000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc3a00000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc4400000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc4e00000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc5800000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc6200000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc6c00000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc7600000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x150cc8000000 size 10485760 ipcDesc 0x150c6c008b60
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x604000000 size 10485760 ipcDesc 0x150c6c01b688
+gcn148:1682879:1683229 [0] NCCL INFO transport/net.cc:811 Cuda Host Alloc Size 532480 pointer 0x150cb1b20200
+gcn148:1682879:1683229 [0] NCCL INFO Mem Realloc old size 0, new size 1024 pointer 0x150c6c0619b0
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x604c00000 size 9633792 ipcDesc 0x150c6c01a808
+gcn148:1682879:1683229 [0] NCCL INFO transport/net.cc:972 Cuda Host Alloc Size 8192 pointer 0x150cb1ba2200
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x606000000 size 10485760 ipcDesc 0x150c6c01bcc8
+gcn148:1682879:1683229 [0] NCCL INFO transport/net.cc:811 Cuda Host Alloc Size 532480 pointer 0x606a00000
+gcn148:1682879:1683229 [0] NCCL INFO Allocated shareable buffer 0x606e00000 size 9633792 ipcDesc 0x150c6c01af98
+gcn148:1682879:1683229 [0] NCCL INFO transport/net.cc:972 Cuda Host Alloc Size 8192 pointer 0x150cb1ba4200

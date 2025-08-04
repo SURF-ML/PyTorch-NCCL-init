@@ -1,47 +1,46 @@
-gcn146:2001899:2001899 [1] NCCL INFO cudaDriverVersion 12090
-gcn146:2001899:2001899 [1] NCCL INFO NCCL version 2.27.3+cuda12.9
-gcn148:1613294:1613590 [2] NCCL INFO NET/Plugin: Plugin name set by env to libnccl-net.so
-gcn148:1613294:1613590 [2] NCCL INFO NET/Plugin: Loaded net plugin NCCL RDMA Plugin v10 (v10)
-gcn148:1613294:1613590 [2] NCCL INFO NET/Plugin: Loaded collnet plugin NCCL RDMA Plugin v10 (v10)
-gcn148:1613294:1613590 [2] NCCL INFO Successfully loaded external plugin libnccl-net.so
-gcn148:1613294:1613590 [2] NCCL INFO Plugin Path : /opt/hpcx/nccl_rdma_sharp_plugin/lib/libnccl-net.so
-gcn148:1613294:1613590 [2] NCCL INFO P2P plugin v10 IBext_v10
-gcn148:1613273:1613592 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/IB/SHARP [2]mlx5_3:1/IB/SHARP [3]mlx5_4:1/IB/SHARP [4]mlx5_5:1/IB/SHARP [RO]; OOB eno2np0:172.18.62.148<0>
-gcn148:1613273:1613592 [0] NCCL INFO Initialized NET plugin IBext_v10
-gcn148:1613273:1613592 [0] NCCL INFO Assigned NET plugin IBext_v10 to comm
-gcn148:1613273:1613592 [0] NCCL INFO Using network IBext_v10
-gcn148:1613273:1613592 [0] NCCL INFO ncclCommInitRankConfig comm 0xa558a50 rank 4 nranks 8 cudaDev 0 nvmlDev 0 busId 6000 commId 0xdb91428a2b980896 - Init START
-ggcn146:2001908:2002248 [3] NCCL INFO RAS client listening socket at ::1<28028>ggcn148:1613294:1613590 [2] NCCL INFO Setting affinity for GPU 2 to 32-6gcgcn148:1613286:1613589 [3] NCCL INFO NVLS multicast support is not available on dev 3 (NVLS_NCHANNELS 0gcgcn146:2001893:2002247 [2] NCCL INFO comm 0xad3bac0 rank 2 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL gcgcn146:2001893:2002247 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/gcn146:2001887:2002246 [0] NCCL INFO Channel 01/08 : 0 5 7 6 4 1 3 2
-gcn146:2001887:2002246 [0] NCCL INFO Channel 02/08 : 0 3 6 5 4 7 2 1
-gcn146:2001887:2002246 [0] NCCL INFO Channel 03/08 : 0 2 7 5 4 6 3 1
-gcn146:2001887:2002246 [0] NCCL INFO Channel 04/08 : 0 1 2 3 4 5 6 7
-ggcn146:2001893:2002283 [2] NCCL INFO [Proxy Service] Device 2 CPU cogcn146gcn146:2001893:2002284 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 50
-gcn146:2001893:2002247 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
-gcn146:2001893:2002247 [2] NCCL INFO 8 coll channels, 8 collnet channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
-gcn146:2001893:2002247 [2] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
-gcn146:2001893:2002247 [2] NCCL INFO ncclCommInitRankConfig comm 0xad3bac0 rank 2 nranks 8 cudaDev 2 nvmlDev 2 busId a6000 commId 0xdb91428a2b980896 - Init COMPLETE
-gcn146:2001893:2002247 [2] NCCL INFO Init timings - ncclCommInitRankConfig: rank 2 nranks 8 total 2.18 (kernels 0.39, alloc 1.62, bootstrap 0.06, allgathers 0.01, topo 0.02, graphs 0.05, connections 0.01, rest 0.03)ggcn1gcn146:2001908:2002289 [3] NCCL INFO Channel 03/0 : 7[3] -> 3[3] [receive] via NET/IBext_v10/3/GDRDMA
-gcn146:2001908:2002294 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 63
-gcn146:2001908:2002289 [3] NCCL INFO Channel 07/0 : 7[3] -> 3[3] [receive] via NET/IBext_v10/3/GDRDMA
-gcn146:2001908:2002289 [3] NCCL INFO Channel 03/0 : 3[3] -> 7[3] [send] via NET/IBext_v10/3/GDRDMA
-gcn146:2001908:2002289 [3] NCCL INFO Channel 07/0 : 3[3] -> 7[3] [send] via NET/IBext_v10/3/GDRDMA
-gcn146:2001908:2002289 [3] NCCL INFO Channel 01/0 : 3[3] -> 0[0] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 03/0 : 3[3] -> 0[0] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 05/0 : 3[3] -> 0[0] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 07/0 : 3[3] -> 0[0] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 02/0 : 3[3] -> 1[1] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 06/0 : 3[3] -> 1[1] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/CUMEM
-gcn146:2001908:2002289 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/CUgcn1gcn146:2001908:2002289 [3] NCCL INFO Connected all trees
-gcn148:1613286:1613286 [3] NCCL INFO comm 0xb0bd970 rank 7 nranks 8 cudaDev 3 busId c6000 - Destroy COMPLETE
-99:2002287 [1] NCCL INFO Connected all treesggcn148:1613279:1613279 [1] NCCL INFO comm 0xae58db0 rank 5 nranks 8 cudaDev 1 busId 26000 - Destroy COMPLETE
-001893:2002290 [2] NCCL INFO Connected all trees
-gcn148:1613294:1613294 [2] NCCL INFO comm 0x9b498b0 rank 6 nranks 8 cudaDev 2 busId a6000 - Destroy COMPLETE
-CCL INFO Channel 00/0 : 4[0] -> 0[0] [receive] via NET/IBext_v10/2/GDRDMA
-gcn146:2001887:2002288 [0] NCCL INFO Channel 04/0 : 4[0] -> 0[0] [receive] via NET/IBext_v10/2/GDRDMA
-gcn146:2001887:2002288 [0] NCCL INFO Channel 00/0 : 0[0] -> 4[0] [send] via NET/IBext_v10/2/GDRDMA
-gcn146:2001887:2002288 [0] NCCL INFO Channel 04/0 : 0[0] -> 4[0] [send] via NET/IBext_v10/2/GDRDMA
-gcn146:2001887:2002288 [0] NCCL INFO Connected all trees
-gcn146:2001887:2001887 [0] NCCL INFO comm 0xb5c6ed0 rank 0 nranks 8 cudaDev 0 busId 6000 - Destroy COMPLETE
+gcn148:1673675:1673675 [0] NCCL INFO cudaDriverVersion 12090
+gcn148:1673675:1673675 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn148:1673675:1674004 [0] NCCL INFO NET/Plugin: Plugin name set by env to libnccl-net.so
+gcn148:1673675:1674004 [0] NCCL INFO NET/Plugin: Loaded net plugin NCCL RDMA Plugin v10 (v10)
+gcn148:1673675:1674004 [0] NCCL INFO NET/Plugin: Loaded collnet plugin NCCL RDMA Plugin v10 (v10)
+gcn148:1673675:1674004 [0] NCCL INFO Successfully loaded external plugin libnccl-net.so
+gcn148:1673675:1674004 [0] NCCL INFO Plugin Path : /opt/hpcx/nccl_rdma_sharp_plugin/lib/libnccl-net.so
+gcn148:1673675:1674004 [0] NCCL INFO P2P plugin v10 IBext_v10
+gcn148:1673675:1674004 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/IB/SHARP [2]mlx5_3:1/IB/SHARP [3]mlx5_4:1/IB/SHARP [4]mlx5_5:1/IB/SHARP [RO]; OOB eno2np0:172.18.62.148<0>
+gcn148:1673675:1674004 [0] NCCL INFO Initialized NET plugin IBext_v10
+gcn148:1673675:1674004 [0] NCCL INFO Assigned NET plugin IBext_v10 to comm
+gcn148:1673675:1674004 [0] NCCL INFO Using network IBext_v10
+gcn148:1673675:1674004 [0] NCCL INFO ncclCommInitRankConfig comm 0x9c835b0 rank 4 nranks 8 cudaDev 0 nvmlDev 0 busId 6000 commId 0xdbc541bcb65057ab - Init START
+gcn148:1673675:1674004 [0] NCCL INFO RAS client listening socket at ::1<28028>
+gcn148:1673675:1674004 [0] NCCL INFO Setting affinity for GPU 0 to 0-31
+gcn148:1673675:1674004 [0] NCCL INFO NVLS multicast support is not available on dev 0 (NVLS_NCHANNELS 0)
+gcn148:1673675:1674004 [0] NCCL INFO comm 0x9c835b0 rank 4 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+gcn148:1673675:1674004 [0] NCCL INFO Trees [0] 5/-1/-1->4->0 [1] -1/-1/-1->4->7 [2] 5/-1/-1->4->6 [3] 6/-1/-1->4->7 [4] 5/0/-1->4->-1 [5] -1/-1/-1->4->7 [6] 5/-1/-1->4->6 [7] 6/-1/-1->4->7
+gcn148:1673675:1674004 [0] NCCL INFO P2P Chunksize set to 131072
+gcn148:1673675:1674004 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gcn148:1673675:1674119 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 11
+gcn148:1673675:1674118 [0] NCCL INFO [Proxy Service] Device 0 CPU core 12
+gcn148:1673675:1674004 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gcn148:1673675:1674004 [0] NCCL INFO 8 coll channels, 8 collnet channels, 0 nvls channels, 8 p2p channels, 2 p2p channels per peer
+gcn148:1673675:1674004 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gcn148:1673675:1674004 [0] NCCL INFO ncclCommInitRankConfig comm 0x9c835b0 rank 4 nranks 8 cudaDev 0 nvmlDev 0 busId 6000 commId 0xdbc541bcb65057ab - Init COMPLETE
+gcn148:1673675:1674004 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 4 nranks 8 total 2.13 (kernels 0.40, alloc 1.62, bootstrap 0.02, allgathers 0.00, topo 0.02, graphs 0.04, connections 0.01, rest 0.01)
+gcn148:1673675:1674122 [0] NCCL INFO Channel 00/0 : 4[0] -> 5[1] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 02/0 : 4[0] -> 5[1] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 04/0 : 4[0] -> 5[1] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 06/0 : 4[0] -> 5[1] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 02/0 : 4[0] -> 6[2] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 03/0 : 4[0] -> 6[2] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 06/0 : 4[0] -> 6[2] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 07/0 : 4[0] -> 6[2] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 01/0 : 4[0] -> 7[3] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 03/0 : 4[0] -> 7[3] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 05/0 : 4[0] -> 7[3] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 07/0 : 4[0] -> 7[3] via P2P/CUMEM
+gcn148:1673675:1674122 [0] NCCL INFO Channel 00/0 : 0[0] -> 4[0] [receive] via NET/IBext_v10/2/GDRDMA
+gcn148:1673675:1674127 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 18
+gcn148:1673675:1674122 [0] NCCL INFO Channel 04/0 : 0[0] -> 4[0] [receive] via NET/IBext_v10/2/GDRDMA
+gcn148:1673675:1674122 [0] NCCL INFO Channel 00/0 : 4[0] -> 0[0] [send] via NET/IBext_v10/2/GDRDMA
+gcn148:1673675:1674122 [0] NCCL INFO Channel 04/0 : 4[0] -> 0[0] [send] via NET/IBext_v10/2/GDRDMA
+gcn148:1673675:1674122 [0] NCCL INFO Connected all trees
+gcn148:1673675:1673675 [0] NCCL INFO comm 0x9c835b0 rank 4 nranks 8 cudaDev 0 busId 6000 - Destroy COMPLETE

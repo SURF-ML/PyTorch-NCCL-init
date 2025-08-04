@@ -1,2 +1,2 @@
-gcn148:1614405:1614405 [3] NCCL INFO NCCL version 2.27.3+cuda12.9
-gcn148:1614405:1614405 [3] NCCL INFO AllReduce: opCount 0 sendbuff 0x148ae5e00000 recvbuff 0x148ae5e00000 count 1 datatype 2 op 0 root 0 comm 0xaf1b180 [nranks=8] stream (nil)
+gcn148:1674919:1674919 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gcn148:1674919:1674919 [0] NCCL INFO AllReduce: opCount 0 sendbuff 0x149efde00000 recvbuff 0x149efde00000 count 1 datatype 2 op 0 root 0 comm 0xaf50430 [nranks=8] stream (nil)
