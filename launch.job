@@ -31,7 +31,7 @@ run_flag() {
          --error=logs/${OUTPUT_DIR}/slurm/${flag}-%j.err \
          apptainer exec \
          --env NCCL_DEBUG_SUBSYS=$flag \
-         --env NCCL_DEBUG_FILE=logs/${OUTPUT_DIR}/nccl_debug_${flag}.log \
+         --env NCCL_DEBUG_FILE=logs/${OUTPUT_DIR}/${flag}.log \
          --env MASTER_PORT=$MASTER_PORT \
          --env MASTER_ADDR=$MASTER_ADDR \
          --env WORLD_SIZE=$WORLD_SIZE \
